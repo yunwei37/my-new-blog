@@ -19,7 +19,7 @@ export default function Footer() {
           <SocialIcon kind="threads" href={siteMetadata.threads} size={6} />
           <SocialIcon kind="medium" href={siteMetadata.medium} size={6} />
         </div>
-        <div className="flex space-x-2 text-sm text-gray-600 dark:text-gray-300">
+        <div className="flex space-x-2 text-sm opacity-80">
           <div>{siteMetadata.author}</div>
           <div>{` • `}</div>
           <div>{`© ${new Date().getFullYear()}`}</div>
@@ -28,7 +28,7 @@ export default function Footer() {
             {siteMetadata.title}
           </Link>
         </div>
-        <div className="text-sm text-gray-500 dark:text-gray-400">
+        <div className="text-sm opacity-60">
           <Link 
             href="https://github.com/timlrx/tailwind-nextjs-starter-blog"
             className="hover:text-primary-500 transition-colors"

@@ -43,7 +43,7 @@ function renderNavTree(tree: any, prefix = '') {
         <li key={key} className="mb-1">
           <Link
             href={`/docs/${value.doc.slug}`}
-            className="block px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-white/20 dark:hover:bg-black/20 rounded-lg transition-all duration-200"
+            className="block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200"
           >
             📄 {value.name}
           </Link>
@@ -54,7 +54,7 @@ function renderNavTree(tree: any, prefix = '') {
     if (hasChildren) {
       return (
         <li key={key} className="mb-3">
-          <div className="px-3 py-2 text-sm font-bold text-gray-900 dark:text-gray-100 flex items-center">
+          <div className="px-3 py-2 text-sm font-bold flex items-center">
             <span className="mr-2">📁</span>
             {value.name}
           </div>
@@ -77,10 +77,10 @@ export default function DocLayout({ content, children, allDocs }: DocLayoutProps
       {/* 侧边栏导航 */}
       <div className="hidden lg:block w-72 flex-shrink-0">
         <div className="sticky top-8">
-          <nav className="bg-white/60 dark:bg-black/60 backdrop-blur-md rounded-xl p-6 border border-gray-200/30 dark:border-gray-700/30">
+          <nav className="rounded-xl p-6 border border-gray-200/20 dark:border-gray-700/20">
             <Link href="/docs" className="flex items-center mb-6 group">
               <span className="text-2xl mr-3 group-hover:scale-110 transition-transform">📚</span>
-              <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+              <h3 className="text-xl font-bold group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                 Documentation
               </h3>
             </Link>

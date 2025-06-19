@@ -14,7 +14,7 @@ export default function AuthorLayout({ children, content }: Props) {
   return (
     <div className="space-y-8">
       <div className="text-center py-8">
-        <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
+        <h1 className="text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
           About
         </h1>
       </div>
@@ -22,7 +22,7 @@ export default function AuthorLayout({ children, content }: Props) {
       <div className="flex flex-col lg:flex-row lg:gap-8">
         {/* Profile Card */}
         <div className="lg:w-80 lg:flex-shrink-0 mb-8 lg:mb-0">
-          <div className="bg-white/60 dark:bg-black/60 backdrop-blur-md rounded-xl p-8 border border-gray-200/30 dark:border-gray-700/30">
+          <div className="rounded-xl p-8 border border-gray-200/20 dark:border-gray-700/20">
             <div className="space-y-6 text-center">
               {avatar && (
                 <div className="mx-auto">
@@ -36,14 +36,14 @@ export default function AuthorLayout({ children, content }: Props) {
                 </div>
               )}
               <div>
-                <h3 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
+                <h3 className="text-2xl font-bold leading-8 tracking-tight">
                   {name}
                 </h3>
-                <div className="mt-2 text-gray-600 dark:text-gray-300">
+                <div className="mt-2">
                   {occupation}
                 </div>
                 {company && (
-                  <div className="text-gray-500 dark:text-gray-400">
+                  <div className="text-sm opacity-80">
                     {company}
                   </div>
                 )}

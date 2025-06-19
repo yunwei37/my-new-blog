@@ -94,7 +94,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
               </dd>
             </dl>
             <div className="divide-y divide-gray-200/30 xl:col-span-3 xl:row-span-2 xl:pb-0 dark:divide-gray-700/30">
-              <div className="prose dark:prose-invert max-w-none pt-10 pb-8">{children}</div>
+              <div className="prose dark:prose-invert max-w-none pt-10 pb-8 text-gray-700 dark:text-gray-200">{children}</div>
               <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300 glass p-4 rounded-xl">
                 <Link href={discussUrl(path)} rel="nofollow" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
                   Discuss on Twitter

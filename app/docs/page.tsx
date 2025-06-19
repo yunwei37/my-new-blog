@@ -1,8 +1,6 @@
 import { allDocs } from 'contentlayer/generated'
 import { allCoreContent } from 'pliny/utils/contentlayer'
 import { genPageMetadata } from 'app/seo'
-import PageTitle from '@/components/PageTitle'
-import SectionContainer from '@/components/SectionContainer'
 import Link from '@/components/Link'
 
 export const metadata = genPageMetadata({ title: 'Documentation' })
@@ -72,33 +70,44 @@ function buildDirectoryStructure(docs: any[]): DocItem[] {
 // 渲染目录结构
 function renderDirectoryStructure(items: DocItem[], depth = 0): React.ReactNode {
   return (
-    <div className={`${depth > 0 ? 'ml-6 mt-4' : ''}`}>
+    <div className={`${depth > 0 ? 'ml-6 mt-4' : 'space-y-6'}`}>
       {items.map((item, index) => (
-        <div key={`${item.path}-${index}`} className="mb-4">
+        <div key={`${item.path}-${index}`}>
           {item.isDirectory ? (
             // 目录
-            <div>
-              <h3 className={`${depth === 0 ? 'text-xl' : 'text-lg'} font-semibold text-gray-900 dark:text-gray-100 mb-3`}>
-                📁 {item.name}
-              </h3>
+            <div className="space-y-4">
+              <div className="flex items-center space-x-2">
+                <span className="text-2xl">📁</span>
+                <h3 className={`${depth === 0 ? 'text-2xl' : 'text-xl'} font-bold text-gray-900 dark:text-gray-100`}>
+                  {item.name}
+                </h3>
+              </div>
               {item.children.length > 0 && renderDirectoryStructure(item.children, depth + 1)}
             </div>
           ) : (
             // 文件
             <Link
               href={item.href!}
-              className="block rounded-lg border border-gray-200 p-4 hover:bg-gray-50 hover:border-gray-300 transition-colors dark:border-gray-700 dark:hover:bg-gray-800 dark:hover:border-gray-600"
+              className="group block p-6 border border-gray-200/30 dark:border-gray-700/30 rounded-xl hover:bg-white/10 dark:hover:bg-black/10 transition-all duration-300"
             >
-              <div className="flex items-center">
-                <span className="mr-3 text-lg">📄</span>
-                <div>
-                  <h4 className="text-lg font-medium text-gray-900 dark:text-gray-100">
+              <div className="flex items-start space-x-4">
+                <span className="text-2xl group-hover:scale-110 transition-transform">📄</span>
+                <div className="flex-1">
+                  <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                     {item.name}
                   </h4>
                   <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
                     {item.path}
                   </p>
                 </div>
+                <svg 
+                  className="w-5 h-5 text-gray-400 group-hover:text-primary-500 transition-colors" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
               </div>
             </Link>
           )}
@@ -109,31 +118,41 @@ function renderDirectoryStructure(items: DocItem[], depth = 0): React.ReactNode 
 }
 
 export default function DocsPage() {
-  const docs = allCoreContent(allDocs)
+  const docs = allDocs.map(doc => ({ 
+    slug: doc.slug, 
+    title: doc.title, 
+    path: doc.path 
+  }))
   const directoryStructure = buildDirectoryStructure(docs)
 
   return (
-    <SectionContainer>
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-          <PageTitle>Documentation</PageTitle>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Browse documentation organized by directory structure
-          </p>
-        </div>
-        
-        <div className="py-8">
-          {directoryStructure.length > 0 ? (
-            renderDirectoryStructure(directoryStructure)
-          ) : (
-            <div className="text-center py-12">
-              <p className="text-gray-500 dark:text-gray-400">
-                No documentation found. Create some `.md` files in the `data/docs/` directory to get started.
+    <div className="space-y-8">
+      <div className="text-center py-8">
+        <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
+          Documentation
+        </h1>
+        <p className="text-lg leading-7 text-gray-600 dark:text-gray-300 mt-4">
+          Browse documentation organized by directory structure
+        </p>
+      </div>
+      
+      <div>
+        {directoryStructure.length > 0 ? (
+          renderDirectoryStructure(directoryStructure)
+        ) : (
+          <div className="text-center py-16 border border-gray-200/30 dark:border-gray-700/30 rounded-xl">
+            <div className="space-y-4">
+              <div className="text-6xl">📚</div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+                No documentation found
+              </h3>
+              <p className="text-gray-500 dark:text-gray-400 max-w-md mx-auto">
+                Create some <code className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">.md</code> files in the <code className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">data/docs/</code> directory to get started.
               </p>
             </div>
-          )}
-        </div>
+          </div>
+        )}
       </div>
-    </SectionContainer>
+    </div>
   )
 } 

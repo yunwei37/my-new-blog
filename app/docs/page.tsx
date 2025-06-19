@@ -120,7 +120,7 @@ function renderDirectoryStructure(items: DocItem[], depth = 0): React.ReactNode 
 export default function DocsPage() {
   const docs = allDocs.map(doc => ({ 
     slug: doc.slug, 
-    title: doc.title, 
+    title: doc.title || doc.slug.split('/').pop() || 'Untitled', 
     path: doc.path 
   }))
   const directoryStructure = buildDirectoryStructure(docs)

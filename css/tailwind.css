@@ -112,30 +112,6 @@
     }
   }
 
-  .prose-invert {
-    & a {
-      color: var(--color-primary-400);
-      &:hover {
-        color: var(--color-primary-300);
-      }
-      & code {
-        color: var(--color-primary-400);
-      }
-    }
-    & :where(h1, h2, h3, h4, h5, h6) {
-      color: var(--color-gray-100);
-      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-    }
-    & p {
-      color: var(--color-gray-200);
-    }
-    & :where(code):not(pre code) {
-      color: oklch(0.78 0.16 340);
-      background: rgba(0, 0, 0, 0.3);
-      backdrop-filter: blur(4px);
-    }
-  }
-
   /* Glass morphism utilities */
   .glass {
     background: rgba(255, 255, 255, 0.25);
@@ -220,7 +196,7 @@
   }
 
   .dark .content-glass {
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.65);
     border: 1px solid rgba(255, 255, 255, 0.25);
     box-shadow: 
       0 12px 40px rgba(0, 0, 0, 0.6),

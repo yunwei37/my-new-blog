@@ -1,5 +1,5 @@
 import { allDocs } from 'contentlayer/generated'
-import { allCoreContent, coreContent } from 'pliny/utils/contentlayer'
+import { coreContent } from 'pliny/utils/contentlayer'
 import type { Doc } from 'contentlayer/generated'
 import { components } from '@/components/MDXComponents'
 import DocLayout from '@/layouts/DocLayout'
@@ -55,8 +55,16 @@ export default async function Page(props: { params: Promise<{ slug: string[] }> 
   }
 
   const doc = sortedDocs[docIndex]
-  const allDocsCore = allCoreContent(sortedDocs)
-  const mainContent = coreContent(doc)
+  const allDocsCore = sortedDocs.map(d => ({
+    slug: d.slug,
+    title: d.title || d.slug.split('/').pop() || 'Untitled',
+    path: d.path
+  }))
+  const mainContent = {
+    slug: doc.slug,
+    title: doc.title || doc.slug.split('/').pop() || 'Untitled',
+    path: doc.path
+  }
 
   return (
     <DocLayout content={mainContent} allDocs={allDocsCore}>

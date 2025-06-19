@@ -9,58 +9,62 @@ interface Props {
 }
 
 export default function AuthorLayout({ children, content }: Props) {
-  const { name, avatar, occupation, company, email, twitter, bluesky, linkedin, github } = content
+  const { name, avatar, occupation, company, email, twitter, linkedin, github } = content
 
   return (
-    <>
-      <div className="space-y-6">
-        <div className="content-glass p-8 text-center">
-          <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
-            About
-          </h1>
-        </div>
-        <div className="grid gap-6 xl:grid-cols-3">
-          {/* Author Profile Card */}
-          <div className="xl:col-span-1">
-            <div className="content-glass p-8 text-center">
-              <div className="flex flex-col items-center space-y-4">
-                {avatar && (
-                  <div className="glass-strong p-2 rounded-full">
-                    <Image
-                      src={avatar}
-                      alt="avatar"
-                      width={192}
-                      height={192}
-                      className="h-48 w-48 rounded-full"
-                    />
+    <div className="space-y-8">
+      <div className="text-center py-8">
+        <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
+          About
+        </h1>
+      </div>
+      
+      <div className="flex flex-col lg:flex-row lg:gap-8">
+        {/* Profile Card */}
+        <div className="lg:w-80 lg:flex-shrink-0 mb-8 lg:mb-0">
+          <div className="bg-white/60 dark:bg-black/60 backdrop-blur-md rounded-xl p-8 border border-gray-200/30 dark:border-gray-700/30">
+            <div className="space-y-6 text-center">
+              {avatar && (
+                <div className="mx-auto">
+                  <Image
+                    src={avatar}
+                    alt="avatar"
+                    width={192}
+                    height={192}
+                    className="h-48 w-48 rounded-full object-cover"
+                  />
+                </div>
+              )}
+              <div>
+                <h3 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
+                  {name}
+                </h3>
+                <div className="mt-2 text-gray-600 dark:text-gray-300">
+                  {occupation}
+                </div>
+                {company && (
+                  <div className="text-gray-500 dark:text-gray-400">
+                    {company}
                   </div>
                 )}
-                <div className="space-y-2">
-                  <h3 className="text-2xl leading-8 font-bold tracking-tight text-gray-900 dark:text-gray-100">{name}</h3>
-                  <div className="text-gray-600 dark:text-gray-300 font-medium">{occupation}</div>
-                  <div className="text-gray-500 dark:text-gray-400">{company}</div>
-                </div>
-                <div className="flex space-x-4 pt-4">
-                  <SocialIcon kind="mail" href={`mailto:${email}`} />
-                  <SocialIcon kind="github" href={github} />
-                  <SocialIcon kind="linkedin" href={linkedin} />
-                  <SocialIcon kind="x" href={twitter} />
-                  <SocialIcon kind="bluesky" href={bluesky} />
-                </div>
+              </div>
+              <div className="flex justify-center space-x-3">
+                <SocialIcon kind="mail" href={`mailto:${email}`} />
+                <SocialIcon kind="github" href={github} />
+                <SocialIcon kind="linkedin" href={linkedin} />
+                <SocialIcon kind="twitter" href={twitter} />
               </div>
             </div>
           </div>
-          
-          {/* Content Area */}
-          <div className="xl:col-span-2">
-            <div className="content-glass p-8">
-              <div className="prose dark:prose-invert max-w-none lg:prose-lg">
-                {children}
-              </div>
-            </div>
+        </div>
+        
+        {/* Content */}
+        <div className="flex-1">
+          <div className="prose dark:prose-invert max-w-none lg:prose-lg">
+            {children}
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }

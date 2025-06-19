@@ -99,13 +99,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeProviders>
           <Background />
           <Analytics analyticsConfig={siteMetadata.analytics as AnalyticsConfig} />
-          <SectionContainer>
-            <SearchProvider searchConfig={siteMetadata.search as SearchConfig}>
-              <Header />
-              <main className="mb-auto">{children}</main>
-            </SearchProvider>
-            <Footer />
-          </SectionContainer>
+          
+          {/* Main Glass Container */}
+          <div className="min-h-screen flex flex-col justify-center py-8">
+            <div className="content-glass mx-auto max-w-3xl xl:max-w-5xl px-4 sm:px-6 xl:px-8 py-8">
+              <SearchProvider searchConfig={siteMetadata.search as SearchConfig}>
+                <Header />
+                <main className="py-6">{children}</main>
+                <Footer />
+              </SearchProvider>
+            </div>
+          </div>
         </ThemeProviders>
       </body>
     </html>

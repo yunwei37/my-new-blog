@@ -44,7 +44,7 @@ function renderNavTree(tree: any, prefix = '') {
         <li key={key} className="mb-1">
           <Link
             href={`/docs/${value.doc.slug}`}
-            className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md dark:text-gray-300 dark:hover:bg-gray-700"
+            className="block px-3 py-2 text-sm text-gray-800 dark:text-gray-200 hover:glass rounded-lg transition-all duration-200 hover:scale-[1.02]"
           >
             {value.name}
           </Link>
@@ -54,11 +54,11 @@ function renderNavTree(tree: any, prefix = '') {
     
     if (hasChildren) {
       return (
-        <li key={key} className="mb-2">
-          <div className="px-3 py-2 text-sm font-medium text-gray-900 dark:text-gray-100">
-            {value.name}
+        <li key={key} className="mb-3">
+          <div className="px-3 py-2 text-sm font-bold text-gray-900 dark:text-gray-100">
+            📁 {value.name}
           </div>
-          <ul className="ml-4 border-l border-gray-200 dark:border-gray-700">
+          <ul className="ml-4 space-y-1">
             {renderNavTree(value.children, `${prefix}${key}/`)}
           </ul>
         </li>
@@ -74,15 +74,15 @@ export default function DocLayout({ content, children, allDocs }: DocLayoutProps
   
   return (
     <SectionContainer>
-      <div className="flex flex-col lg:flex-row lg:space-x-8">
+      <div className="space-y-6 lg:space-y-0 lg:flex lg:space-x-8">
         {/* 侧边栏导航 */}
-        <div className="lg:w-64 lg:flex-shrink-0">
-          <div className="lg:sticky lg:top-8">
-            <nav className="mb-8 lg:mb-0">
-              <h3 className="mb-4 text-lg font-semibold text-gray-900 dark:text-gray-100">
-                Documentation
+        <div className="lg:w-72 lg:flex-shrink-0">
+          <div className="lg:sticky lg:top-24">
+            <nav className="sidebar-glass p-6">
+              <h3 className="mb-6 text-xl font-bold text-gray-900 dark:text-gray-100 flex items-center">
+                📚 Documentation
               </h3>
-              <ul className="space-y-1">
+              <ul className="space-y-2">
                 {renderNavTree(navTree)}
               </ul>
             </nav>
@@ -91,12 +91,14 @@ export default function DocLayout({ content, children, allDocs }: DocLayoutProps
         
         {/* 主内容区域 */}
         <div className="flex-1 min-w-0">
-          <div className="mb-8">
+          <div className="content-glass p-8 mb-6">
             <PageTitle>{content.title}</PageTitle>
           </div>
           
-          <div className="prose prose-gray max-w-none dark:prose-invert">
-            {children}
+          <div className="content-glass p-8">
+            <div className="prose prose-gray max-w-none dark:prose-invert lg:prose-lg">
+              {children}
+            </div>
           </div>
         </div>
       </div>

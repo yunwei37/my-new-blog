@@ -13,7 +13,7 @@ const SearchButton = () => {
     return (
       <SearchButtonWrapper 
         aria-label="Search"
-        className="p-2 rounded-lg hover:glass transition-all duration-200 hover:scale-105"
+        className="p-2 rounded-lg hover:bg-white/20 dark:hover:bg-black/20 transition-all duration-200"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

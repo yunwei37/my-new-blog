@@ -2,12 +2,16 @@ import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
+import Hero from '@/components/Hero'
 
 const MAX_DISPLAY = 5
 
 export default function Home({ posts }) {
   return (
     <>
+      {/* Hero / Landing Section */}
+      <Hero />
+
       <div className="space-y-8">
         <div className="text-center space-y-4 py-8">
           <h1 className="text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">

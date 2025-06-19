@@ -25,6 +25,20 @@ const siteMetadata = {
   locale: 'en-US',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
+  // Background configuration for anime-style themes
+  background: {
+    // Choose background type: 'gradient', 'image', or 'video'
+    type: 'image',
+    // Gradient configurations (when type is 'gradient')
+    lightGradient: 'linear-gradient(135deg, rgba(135, 206, 250, 0.3) 0%, rgba(255, 182, 193, 0.2) 25%, rgba(255, 228, 181, 0.3) 50%, rgba(176, 224, 230, 0.2) 75%, rgba(230, 230, 250, 0.3) 100%)',
+    darkGradient: 'linear-gradient(135deg, rgba(25, 25, 112, 0.4) 0%, rgba(72, 61, 139, 0.3) 25%, rgba(106, 90, 205, 0.2) 50%, rgba(30, 144, 255, 0.1) 75%, rgba(0, 0, 139, 0.3) 100%)',
+    // Image configuration (when type is 'image')
+    lightImage: '/background.jpg',
+    darkImage: '/background.jpg',
+    // Video configuration (when type is 'video')
+    lightVideo: '/static/videos/backgrounds/clouds-light.mp4',
+    darkVideo: '/static/videos/backgrounds/stars-dark.mp4',
+  },
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.

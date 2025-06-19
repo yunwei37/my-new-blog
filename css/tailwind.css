@@ -10,31 +10,32 @@
   --font-sans: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
-  /* Colors */
-  /* Copied from https://tailwindcss.com/docs/theme#default-theme-variable-reference */
-  --color-primary-50: oklch(0.971 0.014 343.198);
-  --color-primary-100: oklch(0.948 0.028 342.258);
-  --color-primary-200: oklch(0.899 0.061 343.231);
-  --color-primary-300: oklch(0.823 0.12 346.018);
-  --color-primary-400: oklch(0.718 0.202 349.761);
-  --color-primary-500: oklch(0.656 0.241 354.308);
-  --color-primary-600: oklch(0.592 0.249 0.584);
-  --color-primary-700: oklch(0.525 0.223 3.958);
-  --color-primary-800: oklch(0.459 0.187 3.815);
-  --color-primary-900: oklch(0.408 0.153 2.432);
-  --color-primary-950: oklch(0.284 0.109 3.907);
+  /* Colors - Enhanced with anime-inspired palette */
+  /* Primary colors inspired by sky blue */
+  --color-primary-50: oklch(0.98 0.02 220);
+  --color-primary-100: oklch(0.93 0.04 220);
+  --color-primary-200: oklch(0.85 0.08 220);
+  --color-primary-300: oklch(0.75 0.12 220);
+  --color-primary-400: oklch(0.65 0.16 220);
+  --color-primary-500: oklch(0.55 0.20 220);
+  --color-primary-600: oklch(0.45 0.18 220);
+  --color-primary-700: oklch(0.35 0.16 220);
+  --color-primary-800: oklch(0.25 0.14 220);
+  --color-primary-900: oklch(0.15 0.12 220);
+  --color-primary-950: oklch(0.10 0.10 220);
 
-  --color-gray-50: oklch(0.985 0.002 247.839);
-  --color-gray-100: oklch(0.967 0.003 264.542);
-  --color-gray-200: oklch(0.928 0.006 264.531);
-  --color-gray-300: oklch(0.872 0.01 258.338);
-  --color-gray-400: oklch(0.707 0.022 261.325);
-  --color-gray-500: oklch(0.551 0.027 264.364);
-  --color-gray-600: oklch(0.446 0.03 256.802);
-  --color-gray-700: oklch(0.373 0.034 259.733);
-  --color-gray-800: oklch(0.278 0.033 256.848);
-  --color-gray-900: oklch(0.21 0.034 264.665);
-  --color-gray-950: oklch(0.13 0.028 261.692);
+  /* Gray colors with warmer tones */
+  --color-gray-50: oklch(0.99 0.005 50);
+  --color-gray-100: oklch(0.97 0.01 50);
+  --color-gray-200: oklch(0.94 0.015 50);
+  --color-gray-300: oklch(0.90 0.02 50);
+  --color-gray-400: oklch(0.75 0.025 50);
+  --color-gray-500: oklch(0.60 0.03 50);
+  --color-gray-600: oklch(0.45 0.035 50);
+  --color-gray-700: oklch(0.35 0.04 50);
+  --color-gray-800: oklch(0.25 0.035 50);
+  --color-gray-900: oklch(0.15 0.03 50);
+  --color-gray-950: oklch(0.08 0.025 50);
 
   /* Line heights */
   --line-height-11: 2.75rem;
@@ -76,36 +77,46 @@
     border-radius: var(--radius-sm);
     outline-color: var(--color-primary-500);
   }
+
+
 }
 
 @layer utilities {
   .prose {
     & a {
-      color: var(--color-primary-500);
+      color: var(--color-primary-600);
       &:hover {
-        color: var(--color-primary-600);
+        color: var(--color-primary-700);
       }
       & code {
-        color: var(--color-primary-400);
+        color: var(--color-primary-500);
       }
     }
     & :where(h1, h2) {
       font-weight: 700;
       letter-spacing: var(--tracking-tight);
+      color: var(--color-gray-800);
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
     }
     & h3 {
       font-weight: 600;
+      color: var(--color-gray-700);
+    }
+    & p {
+      color: var(--color-gray-700);
     }
     & :where(code):not(pre code) {
-      color: var(--color-indigo-500);
+      color: oklch(0.58 0.20 340);
+      background: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(4px);
     }
   }
 
   .prose-invert {
     & a {
-      color: var(--color-primary-500);
+      color: var(--color-primary-400);
       &:hover {
-        color: var(--color-primary-400);
+        color: var(--color-primary-300);
       }
       & code {
         color: var(--color-primary-400);
@@ -113,7 +124,75 @@
     }
     & :where(h1, h2, h3, h4, h5, h6) {
       color: var(--color-gray-100);
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
     }
+    & p {
+      color: var(--color-gray-200);
+    }
+    & :where(code):not(pre code) {
+      color: oklch(0.78 0.16 340);
+      background: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(4px);
+    }
+  }
+
+  /* Glass morphism utilities */
+  .glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  }
+
+  .glass-strong {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  }
+
+  .glass-dark {
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Card glass effect */
+  .card-glass {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 
+      0 8px 32px rgba(0, 0, 0, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  }
+
+  .dark .card-glass {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 
+      0 8px 32px rgba(0, 0, 0, 0.3),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  /* Header glass effect */
+  .header-glass {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 
+      0 8px 32px rgba(0, 0, 0, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  }
+
+  .dark .header-glass {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 
+      0 8px 32px rgba(0, 0, 0, 0.3),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1);
   }
 }
 

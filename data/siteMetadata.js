@@ -24,7 +24,6 @@ const siteMetadata = {
   mastodon: 'https://mastodon.social/@mastodonuser',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
   threads: 'https://www.threads.net',
   instagram: 'https://www.instagram.com',
   medium: 'https://medium.com',

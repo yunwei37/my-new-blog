@@ -115,7 +115,7 @@ $ raco test racket/test/rv64/verify-alu32-x.rkt
 raco test: (submod "racket/test/rv64/verify-alu32-x.rkt" test)
 ENABLE_STACK_ADDR_SYMOPT=#f
 ENABLE_JIT_SPLIT_REGS=#f
-Using solver #<boolector>
+Using solver #&lt;boolector&gt;
 riscv64-alu32-x tests
 [ RUN      ] "VERIFY (BPF_ALU BPF_MOV BPF_X)"
 [       OK ] "VERIFY (BPF_ALU BPF_MOV BPF_X)" (24578 ms)
@@ -218,7 +218,7 @@ params:
 
 `riscv32-alu64-x synthesis
 Running test "SYNTHESIZE (BPF_ALU64 BPF_SUB BPF_X)"
-Using solver #<boolector>
+Using solver #&lt;boolector&gt;
 Synthesizing for op '(BPF_ALU64 BPF_SUB BPF_X) with size 0
 Synthesizing for op '(BPF_ALU64 BPF_SUB BPF_X) with size 1
 Synthesizing for op '(BPF_ALU64 BPF_SUB BPF_X) with size 2
@@ -226,12 +226,15 @@ Synthesizing for op '(BPF_ALU64 BPF_SUB BPF_X) with size 3
 Synthesizing for op '(BPF_ALU64 BPF_SUB BPF_X) with size 4
 
 Solution found for '(BPF_ALU64 BPF_SUB BPF_X):
+
+```c
 void emit_op(u8 rd, u8 rs, s32 imm, struct rv_jit_context *ctx) {
     emit(rv_sub(RV_REG_T1, hi(rd), hi(rs)), ctx);
     emit(rv_sltu(RV_REG_T0, lo(rd), lo(rs)), ctx);
     emit(rv_sub(hi(rd), RV_REG_T1, RV_REG_T0), ctx);
     emit(rv_sub(lo(rd), lo(rd), lo(rs)), ctx);
 }
+```
 
 cpu time: 3513 real time: 141078 gc time: 324`
 

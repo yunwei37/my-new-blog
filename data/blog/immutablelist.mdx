@@ -6,13 +6,15 @@ tags: ['notes']
 
 > 这几篇想简单谈谈一下自己在写代码时遇见的，或者阅读 llvm 相关代码时见到的数据结构实现。
 
+
 ## 关于 ImmutableList
 
 ImmutableList 顾名思义，即不可变链表。它是一种可持久化数据结构，在进行插入或删除操作时并不对原先的数据结构进行改动，而是创建一个新的拷贝。关于可持久化数据结构，可以参考维基百科：[Persistent_data_structure](https://en.wikipedia.org/wiki/Persistent_data_structure)
 
 > 在计算中，持久数据结构或非临时数据结构是一种在修改时始终保留其先前版本的数据结构。这样的数据结构实际上是不可变的，因为它们的操作不会（明显地）就地更新结构，而是总是产生一个新的更新结构。该术语是在 Driscoll、Sarnak、Sleator 和 Tarjans 1986 年的文章中引入的。[1]这些类型的数据结构在逻辑和函数式编程中特别常见，[2]因为这些范式中的语言不鼓励（或完全禁止）使用可变数据。
 
-<!-- more -->
+
+{/* more */}
 
 在 `clang static analyzer` 里面可能也会遇见到不少使用 `ImmutableList` 的情况，是通过使用 `REGISTER_LIST_WITH_PROGRAMSTATE` 宏，来达成在 `ProgramState` 中添加一个 list 记录相关数据的目的：
 
@@ -33,6 +35,7 @@ REGISTER_LIST_WITH_PROGRAMSTATE(LockSet, const MemRegion *)
 > 关于 ProgramState，可以参考：[https://clang.llvm.org/doxygen/classclang_1_1ento_1_1ProgramState.html](https://clang.llvm.org/doxygen/classclang_1_1ento_1_1ProgramState.html)。
 > 在 `clang static analyzer` 中， ProgramState 表示了一个抽象的程序状态。
 > ProgramState的目的是作为一个函数式对象来使用；也就是说。一旦它被创建并在FoldingSet中被 "持久化"，它的的值将永远不会改变。
+
 
 ## ImmutableList 的实现
 

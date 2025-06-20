@@ -12,7 +12,7 @@ In this tutorial, we shed light on one method that can make this possible - an "
 
 An Inline hook is a technique that inserts a piece of code into a running program, altering its control flow. In practice, this is achieved by replacing the first few instructions of a function with a jump to our inserted code (usually another function), which upon completion will jump back, continuing the execution of the original function. Frida is a popular tool that uses this technique to inject code into a running process. It is used for dynamic instrumentation, debugging, and reverse engineering.
 
-In our userspace eBPF runtime bpftime (<https://github.com/eunomia-bpf/bpftime>), we use inline hooking to implement the `uprobe` feature. bpftime is an userspace eBPF runtime that allows existing eBPF applications to operate in unprivileged userspace using the same libraries and toolchains. It offers Uprobe and Syscall tracepoints for eBPF, with significant performance improvements over kernel uprobe and without requiring manual code instrumentation or process restarts.
+In our userspace eBPF runtime bpftime ([https://github.com/eunomia-bpf/bpftime](https://github.com/eunomia-bpf/bpftime)), we use inline hooking to implement the `uprobe` feature. bpftime is an userspace eBPF runtime that allows existing eBPF applications to operate in unprivileged userspace using the same libraries and toolchains. It offers Uprobe and Syscall tracepoints for eBPF, with significant performance improvements over kernel uprobe and without requiring manual code instrumentation or process restarts.
 
 ## Inline Hook Implementation
 

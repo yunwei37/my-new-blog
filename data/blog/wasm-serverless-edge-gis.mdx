@@ -7,7 +7,7 @@ tags: ['notes', 'WebAssembly']
 
 ## table of contents
 
-<!-- TOC -->
+{/* TOC */}
 
 - [table of contents](#table-of-contents)
 - [background](#background)
@@ -20,7 +20,7 @@ tags: ['notes', 'WebAssembly']
 - [边缘计算 + GIS？](#边缘计算--gis)
 - [毕设?](#毕设)
 
-<!-- /TOC -->
+{/* /TOC */}
 
 ## background
 
@@ -70,7 +70,7 @@ Serverless计算尤其是FaaS函数计算，简化了计算资源的供给，极
 
 基于上述分析，将Serverless无服务器计算的特征进行归纳：资源的解耦和服务化、自动弹性伸缩、按使用量计费等；相应带来的优势有低运维、低成本、高弹性、高可用等。
 
-- <https://zhuanlan.zhihu.com/p/425433134>
+- [https://zhuanlan.zhihu.com/p/425433134](https://zhuanlan.zhihu.com/p/425433134)
 
 ### 边缘计算
 
@@ -90,7 +90,7 @@ Serverless计算尤其是FaaS函数计算，简化了计算资源的供给，极
 
 - Sledge: a Serverless-first, Light-weight Wasm Runtime for the Edge
 
-    <https://www2.seas.gwu.edu/~gparmer/publications/middleware20sledge.pdf>
+    [https://www2.seas.gwu.edu/~gparmer/publications/middleware20sledge.pdf](https://www2.seas.gwu.edu/~gparmer/publications/middleware20sledge.pdf)
 
     现在已经拥有了很多无服务器（serverless）的商业、开源平台，但是这些利用虚拟机和容器的解决方案对于资源有限的边缘系统来说过于重了，调度容器（冷启动）、启动一个虚拟机，往往需要大量的内存占用和很高的调用时间。另外，无服务的工作负载，主要的关注在每个客户端的请求，短期运行的计算并不适合常规的计算系统。
 
@@ -110,18 +110,18 @@ Serverless计算尤其是FaaS函数计算，简化了计算资源的供给，极
 
 - WearMask: Fast In-browser Face Mask Detection with Serverless Edge Computing for COVID-19
 
-    <https://arxiv.org/abs/2101.00784>
+    [https://arxiv.org/abs/2101.00784](https://arxiv.org/abs/2101.00784)
 
     COVID-19的流行一直是美国的一个重大医疗挑战。根据美国疾病控制和预防中心（CDC）的资料，COVID-19感染主要是通过人们呼吸、说话、咳嗽或打喷嚏时产生的呼吸道飞沫传播。戴口罩是阻挡80%的呼吸道感染的主要、有效和方便的方法。因此，许多口罩检测和监测系统已经被开发出来，为医院、机场、出版物运输、运动场所和零售场所提供有效的监督。然而，目前的商业口罩检测系统通常与特定的软件或硬件捆绑，阻碍了公众的使用。在本文中，我们提出了一个基于浏览器的无服务器边缘计算的人脸面具检测解决方案，称为基于网络的高效人工智能面具识别（WearMask），它可以部署在任何有互联网连接的普通设备（如手机、平板电脑、电脑）上，使用网络浏览器，而无需安装任何软件。无服务器的边缘计算设计最大限度地减少了额外的硬件成本（例如，特定的设备或云计算服务器）。所提出的方法的贡献在于提供了一个整体的边缘计算框架，它整合了（1）深度学习模型（YOLO），（2）高性能神经网络推理计算框架（NCNN），和（3）基于堆栈的虚拟机（WebAssembly）。对于终端用户来说，我们基于网络的解决方案具有以下优势：（1）无服务器边缘计算设计，设备限制和隐私风险最小；（2）免安装部署；（3）计算要求低；（4）检测速度高。我们的WearMask应用程序已经在这个http URL上推出，供公众访问。
 
 ## serverless + gis: 现有进展
 
-- 胡中南：云原生GIS 2.0新技术解读之Serverless + GIS：<http://stock.10jqka.com.cn/20220908/c641712842.shtml>
-- SuperMap GIS 11i(2022) 新特性速览：<https://www.supermap.com/zh-cn/a/product/11i-characteristic-2022.html>
-- SuperMap GIS 11i(2022)正式发布，揭秘七大特性：<https://baijiahao.baidu.com/s?id=1737120191867774649&wfr=spider&for=pc>
+- 胡中南：云原生GIS 2.0新技术解读之Serverless + GIS：[http://stock.10jqka.com.cn/20220908/c641712842.shtml](http://stock.10jqka.com.cn/20220908/c641712842.shtml)
+- SuperMap GIS 11i(2022) 新特性速览：[https://www.supermap.com/zh-cn/a/product/11i-characteristic-2022.html](https://www.supermap.com/zh-cn/a/product/11i-characteristic-2022.html)
+- SuperMap GIS 11i(2022)正式发布，揭秘七大特性：[https://baijiahao.baidu.com/s?id=1737120191867774649&wfr=spider&for=pc](https://baijiahao.baidu.com/s?id=1737120191867774649&wfr=spider&for=pc)
 - Geospatial Serverless Computing: Architectures, Tools and Future Directions
 
-    <https://www.researchgate.net/publication/341245906_Geospatial_Serverless_Computing_Architectures_Tools_and_Future_Directions>
+    [https://www.researchgate.net/publication/341245906_Geospatial_Serverless_Computing_Architectures_Tools_and_Future_Directions](https://www.researchgate.net/publication/341245906_Geospatial_Serverless_Computing_Architectures_Tools_and_Future_Directions)
 
     Several real-world applications involve the aggregation of physical features corresponding to different geographic and topographic phenomena. This information plays a crucial role in analyzing and predicting several events. The application areas, which often require a real-time analysis, include traffic flow, forest cover, disease monitoring and so on. Thus, most of the existing systems portray some limitations at various levels of processing and implementation. Some of the most commonly observed factors involve lack of reliability, scalability and exceeding computational costs. In this paper, we address different well-known scalable serverless frameworks i.e., Amazon Web Services (AWS) Lambda, Google Cloud Functions and Microsoft Azure Functions for the management of geospatial big data. We discuss some of the existing approaches that are popularly used in analyzing geospatial big data and indicate their limitations. We report the applicability of our proposed framework in context of Cloud Geographic Information System (GIS) platform. An account of some state-of-the-art technologies and tools relevant to our problem domain are discussed. We also visualize performance of the proposed framework in terms of reliability, scalability, speed and security parameters. Furthermore, we present the map overlay analysis,point-cluster analysis, the generated heatmap and clustering analysis. Some relevant statistical plots are also visualized. In this paper, we consider two application case-studies. The first case study was explored using the Mineral Resources Data System (MRDS) dataset, which refers to worldwide density of mineral resources in a country-wise fashion. The second case study was performed using the Fairfax Forecast Households dataset, which signifies the parcel-level household prediction for 30 consecutive years. The proposed model integrates a serverless framework to reduce timing constraints and it also improves the performance associated to geospatial data processing for high-dimensional hyperspectral data.
 
@@ -129,7 +129,7 @@ Serverless计算尤其是FaaS函数计算，简化了计算资源的供给，极
 
 - GIS Processing on the Web
 
-    <https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1674422&dswid=6199>
+    [https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1674422&dswid=6199](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1674422&dswid=6199)
 
     Today more and more advanced and demanding applications are finding their way to the web. These are applications like video editing, games, and mathematical calculations. Up until a few years ago, JavaScript was the only language present on the web. That was until Mozilla, Google, Microsoft, and Apple decided to develop WebAssembly. WebAssembly is a low-level language, similar to assembly, but running in the browser. WebAssembly was not created to replace JavaScript, but to be used alongside it and complement JavaScript’s weaknesses. WebAssembly is still a relatively new language (2017) and is in continuous development. This work is presented as a guideline, and to give a general direction of how WebAssembly is performing (in 2022) when operating on GIS data.
 
@@ -145,7 +145,7 @@ Serverless计算尤其是FaaS函数计算，简化了计算资源的供给，极
 
 - 新一代三维GIS技术体系: 超图
 
-    <https://www.supermap.com/zh-cn/a/product/11i-tec-3-2022.html>
+    [https://www.supermap.com/zh-cn/a/product/11i-tec-3-2022.html](https://www.supermap.com/zh-cn/a/product/11i-tec-3-2022.html)
 
     发布自主研发的全新 WebGL 三维客户端：
 
@@ -156,7 +156,7 @@ Serverless计算尤其是FaaS函数计算，简化了计算资源的供给，极
 
 - WebAssembly4G: Where we are, and where we're heading
 
-    <https://talks.osgeo.org/foss4g-2022/talk/ASDL7P/>
+    [https://talks.osgeo.org/foss4g-2022/talk/ASDL7P/](https://talks.osgeo.org/foss4g-2022/talk/ASDL7P/)
 
     > WebAssembly's adoption is gaining traction and still, its potential is not yet fully utilized, especially for the processing and visualization of geo data in and outside of browsers. In this session I will give a technical introduction to WebAssembly. I will show its current state and adaptation in FOSS4G projects and will talk about the ongoing advancements of the technology and possible future scenarios.
     >
@@ -164,15 +164,17 @@ Serverless计算尤其是FaaS函数计算，简化了计算资源的供给，极
     >
     > The composition of existing OSGeo/FOSS C/C++ libraries in a portable and sandboxed form also brings many advantages outside of browsers. The talk will close with some demos about how WebAssembly enables us to build for the web, as well as for any other platform.
 
+
     WebAssembly的采用越来越多，但它的潜力仍未得到充分的利用，特别是在浏览器内外的地理数据的处理和可视化方面。在这次会议上，我将对WebAssembly做一个技术介绍。我将展示它的现状和在 FOSS4G 项目中的适应性，并将谈论该技术的持续进步和未来可能的情况。这也将是一个实践会议，在展示了如何启动和运行之后，我将分享我在将GEOS、PROJ、GDAL、SpatiaLite和osgEarth的最新版本移植到网络平台时收集的经验、技巧和窍门。现有的OSGeo/FOSS C/C++库以可移植和沙盒的形式组成，在浏览器之外也带来了许多优势。讲座的最后会有一些演示，介绍WebAssembly如何使我们为网络以及其他平台进行构建。
 
 - Write once, run anywhere: safe and reusable analytic modules for WebAssembly, Javascript, or more!
 
-    <https://talks.osgeo.org/foss4g-2022/talk/XV87XB/>
+    [https://talks.osgeo.org/foss4g-2022/talk/XV87XB/](https://talks.osgeo.org/foss4g-2022/talk/XV87XB/)
 
     > The proliferation of client-side analytics and on-going vulnerabilities with shared code libraries have fueled the need for better safety standards for running executables from potentially unknown sources. WebAssembly (WASM), a compilation target that allows lower-level languages like Rust, C, and Go to run in the browser or server-side at near-native speeds. Much like Docker changed the way we run virtualized workflows, WASM runtimes create safe virtual environments where access to the host system is limited.
     > In combination with a new free and open source full-stack geospatial platform, Matico, efforts are underway to enable portability across workflows and applications to more easily use WASM modules. WASM implementations of GDAL are in the works, and powerful open source Rust geospatial libraries are easily packaged for web usage through Wasm-Pack. Additional geo WASM libraries like jsgeoda provide spatial indices, binning, and autocorrelation functions. Shareable code can be a recipe for security vulnerabilities and attack vectors, potentially exposing personal or critical information, particularly if there is the opportunity to run code server-side. WASM implementation alleviates this by requiring access from the Virtual Machine (VM) to be limited and explicit, and for Javascript developers the lightweight AssemblyScript language is relatively familiar.
     > An upcoming Javascript feature called ShadowRealms may enable even simpler and more familiar implementations to safely run Javascript code shared between module authors. These developments lay the groundwork for a hybrid front- and backend geospatial ecosystem of shareable code snippets and analytic functions, much like have emerged in the UI component Javascript ecosystem. The combination of emerging features positions web geospatial analytics and This talk explores the implementation and performance of running geospatial analytic modules through a WebAssembly virtual machine and through the upcoming Javascript ShadowRealm specification.
+
 
     客户端分析的激增和共享代码库的持续漏洞，促使人们需要更好的安全标准来运行来自潜在未知来源的可执行文件。WebAssembly（WASM）是一个编译目标，允许Rust、C和Go等低级语言以接近原生的速度在浏览器或服务器端运行。就像Docker改变了我们运行虚拟化工作流程的方式一样，WASM运行时创建了安全的虚拟环境，对主机系统的访问受到限制。
 
@@ -180,7 +182,7 @@ Serverless计算尤其是FaaS函数计算，简化了计算资源的供给，极
 
     一个即将到来的名为ShadowRealms的Javascript功能可能使更简单和更熟悉的实现安全地运行模块作者之间共享的Javascript代码。这些发展为可共享的代码片段和分析功能的前后端地理空间混合生态系统奠定了基础，就像UI组件Javascript生态系统中出现的那样。新兴功能的结合，使网络地理空间分析和本讲座探讨了通过WebAssembly虚拟机和即将推出的Javascript ShadowRealm规范运行地理空间分析模块的实现和性能。
 
-- <https://github.com/stuartlynn/wasm_geo_agg>
+- [https://github.com/stuartlynn/wasm_geo_agg](https://github.com/stuartlynn/wasm_geo_agg)
 
     Wasm Geo Agg is a proof of concept to explore performing complex geospatial operations in the browser using Rust and WebAssembly. As an initial test, we are focusing on point in polygon operations. Simply load in a CSV file with points and a GeoJSON file with polygons then click aggregate.
 
@@ -198,18 +200,19 @@ Serverless计算尤其是FaaS函数计算，简化了计算资源的供给，极
 
 - ArcGIS API for JavaScript and WebAssembly
 
-    <https://developers.arcgis.com/javascript/latest/faq/>
+    [https://developers.arcgis.com/javascript/latest/faq/](https://developers.arcgis.com/javascript/latest/faq/)
 
     > Does the ArcGIS API for JavaScript support all Content Security Policy directives?
     >
     > No. Most CSP directives are supported and certified within the ArcGIS for JavaScript API. The API's 3D functionality, in addition to the projection engine, makes use of WebAssembly (wasm). Wasm requires unsafe-eval in the script-src directive. Adding this in CSP goes against the protection that it is supposed to provide. There is a WebAssembly GitHub proposal that discusses this in more detail. Until this is addressed, applications that make use of these two parts of the API will not be able to take advantage of using CSP.
 
+
     看起来这里也用了 wasm，不过这个是不是不开源？
 
 - QGIS-Developer QGIS and WebAssembly - OSGeo mailing list
 
-  - <https://lists.osgeo.org/pipermail/qgis-developer/2022-March/064589.html>
-  - <https://wonder-sk.github.io/wasm/qgis.html>
+  - [https://lists.osgeo.org/pipermail/qgis-developer/2022-March/064589.html](https://lists.osgeo.org/pipermail/qgis-developer/2022-March/064589.html)
+  - [https://wonder-sk.github.io/wasm/qgis.html](https://wonder-sk.github.io/wasm/qgis.html)
 
     跑在浏览器里面的 QGIS
 
@@ -224,14 +227,14 @@ Serverless计算尤其是FaaS函数计算，简化了计算资源的供给，极
 - 边缘内容分发：云GIS中心自动将瓦片数据分发到边缘GIS节点，实现了边缘GIS内容的自动更新。
 - 边缘分析计算：在边缘端按需进行GIS分析和计算，有效提升GIS服务性能。
 
-- 为什么我们需要边缘计算GIS技术？ <https://baijiahao.baidu.com/s?id=1718990389366964311&wfr=spider&for=pc>
-- 边缘计算GIS技术篇——边缘GIS再升级，满足云-边-端架构GIS应用多重需求： <https://magazine.supermap.com/view-1000-15938.aspx>
+- 为什么我们需要边缘计算GIS技术？ [https://baijiahao.baidu.com/s?id=1718990389366964311&wfr=spider&for=pc](https://baijiahao.baidu.com/s?id=1718990389366964311&wfr=spider&for=pc)
+- 边缘计算GIS技术篇——边缘GIS再升级，满足云-边-端架构GIS应用多重需求： [https://magazine.supermap.com/view-1000-15938.aspx](https://magazine.supermap.com/view-1000-15938.aspx)
 
 参考论文: WASM/eBPF + Serverless
 
 - SPRIGHT: Extracting the Server from Serverless Computing! High performance eBPF-based Event-driven, Shared-memory Processing
 
-    <https://dl.acm.org/doi/10.1145/3544216.3544259>
+    [https://dl.acm.org/doi/10.1145/3544216.3544259](https://dl.acm.org/doi/10.1145/3544216.3544259)
 
     Serverless computing promises an efficient, low-cost compute capability in cloud environments. However, existing solutions, epitomized by open-source platforms such as Knative, include heavyweight components that undermine this goal of serverless computing. Additionally, such serverless platforms lack dataplane optimizations to achieve efficient, high-performance function chains that facilitate the popular microservices development paradigm. Their use of unnecessarily complex and duplicate capabilities for building function chains severely degrades performance. 'Cold-start' latency is another deterrent.
 
@@ -245,15 +248,15 @@ Serverless计算尤其是FaaS函数计算，简化了计算资源的供给，极
 
 - Sledge: A serverless-first, light-weight wasm runtime for the edge
 
-    <https://dl.acm.org/doi/abs/10.1145/3423211.3425680>
+    [https://dl.acm.org/doi/abs/10.1145/3423211.3425680](https://dl.acm.org/doi/abs/10.1145/3423211.3425680)
 
 - Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing
 
     Serverless computing is an excellent fit for big data processing because it can scale quickly and cheaply to thousands of parallel functions. Existing serverless platforms isolate functions in ephemeral, stateless containers, preventing them from directly sharing memory. This forces users to duplicate and serialise data repeatedly, adding unnecessary performance and resource costs. We believe that a new lightweight isolation approach is needed, which supports sharing memory directly between functions and reduces resource overheads.
 
-    We introduce Faaslets, a new isolation abstraction for high-performance serverless computing. Faaslets isolate the memory of executed functions using \emph{software-fault isolation} (SFI), as provided by WebAssembly, while allowing memory regions to be shared between functions in the same address space. Faaslets can thus avoid expensive data movement when functions are co-located on the same machine. Our runtime for Faaslets, Faasm, isolates other resources, e.g. CPU and network, using standard Linux cgroups, and provides a low-level POSIX host interface for networking, file system access and dynamic loading. To reduce initialisation times, Faasm restores Faaslets from already-initialised snapshots. We compare Faasm to a standard container-based platform and show that, when training a machine learning model, it achieves a 2× speed-up with 10× less memory; for serving machine learning inference, Faasm doubles the throughput and reduces tail latency by 90%.
+    We introduce Faaslets, a new isolation abstraction for high-performance serverless computing. Faaslets isolate the memory of executed functions using *software-fault isolation* (SFI), as provided by WebAssembly, while allowing memory regions to be shared between functions in the same address space. Faaslets can thus avoid expensive data movement when functions are co-located on the same machine. Our runtime for Faaslets, Faasm, isolates other resources, e.g. CPU and network, using standard Linux cgroups, and provides a low-level POSIX host interface for networking, file system access and dynamic loading. To reduce initialisation times, Faasm restores Faaslets from already-initialised snapshots. We compare Faasm to a standard container-based platform and show that, when training a machine learning model, it achieves a 2× speed-up with 10× less memory; for serving machine learning inference, Faasm doubles the throughput and reduces tail latency by 90%.
 
-    <https://arxiv.org/abs/2002.09344>
+    [https://arxiv.org/abs/2002.09344](https://arxiv.org/abs/2002.09344)
 
     Shillaker S, Pietzuch P. Faasm: Lightweight isolation for efficient stateful serverless computing[C]//2020 {USENIX} Annual Technical Conference ({USENIX}{ATC} 20). 2020: 419-433.
 

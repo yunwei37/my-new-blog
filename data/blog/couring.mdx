@@ -11,7 +11,7 @@ tags: ['notes']
 
 本文在 io_uring-echo-server 的基础上增添了一个简易的协程实现，完整的 demo 代码实现在这里：[github.com/yunwei37/co-uring-WebServer/blob/master/demo/io_uring_coroutine_echo_server.cpp](https://github.com/yunwei37/co-uring-WebServer/blob/master/demo/io_uring_coroutine_echo_server.cpp)
 
-<!-- more -->
+{/* more */}
 
 ## 协程实现
 
@@ -150,6 +150,7 @@ request/sec, 60 sec:
 | 1000 bytes | 26077 |  36865 | 39312  | 35115  | 52847  |
 
 > 至于 epoll，原作者有进行过 epoll 和 iouring 的对比，可以参考这里: [benchmarks](https://github.com/frevib/io_uring-echo-server/blob/io-uring-feat-fast-poll/benchmarks/benchmarks.md#benchmark-results-requestssecond)
+
 
 可能是机器性能的原因，在多线程情况下提升并没有很大。
 

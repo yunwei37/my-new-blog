@@ -7,7 +7,8 @@ tags: ['notes']
 
 > 这里只是我刚开始学习静态分析时的一些粗浅的理解和经验之谈，以及相关资料整理，并不能确保正确，还请多多补充指正
 
-<!-- TOC -->
+
+{/* TOC */}
 
 - [1. 关于 Clang static analyzer](#1-关于-clang-static-analyzer)
   - [1.1. Clang static analyzer](#11-clang-static-analyzer)
@@ -33,11 +34,12 @@ tags: ['notes']
     - [5.4.2. 知乎：VVKoishi](#542-知乎vvkoishi)
     - [5.4.3. 其他](#543-其他)
 
-<!-- /TOC -->
+{/* /TOC */}
 
 ## 1. 关于 Clang static analyzer
 
 > 这是 `naive systems` 的一个静态分析工具： https://www.naivesystems.com/ 其中一些对于 MISRA C 的检查器就是基于 ``Clang static analyzer`` 构建的。
+
 
 ### 1.1. Clang static analyzer
 
@@ -252,6 +254,7 @@ https://b.corp.naive.systems:9443/projects/misra-c-2012/wiki/一些简单的可�
 
 > 部分翻译和整理自 https://clang-analyzer.llvm.org/checker_dev_manual.html：Making Your Checker Better，也有一部分是经验总结。这部分值得好好阅读，我们在这上面栽过不少坑
 
+
 #### 4.0.1. 良好的编码习惯
 
 - 警告和注意信息应该清晰易懂，即使有点长。
@@ -296,6 +299,7 @@ https://b.corp.naive.systems:9443/projects/misra-c-2012/wiki/一些简单的可�
 ### 5.1. llvm 官方文档和论坛
 
 > 一切以官方文档为准。
+
 
 - https://github.com/llvm/llvm-project 
 

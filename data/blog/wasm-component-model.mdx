@@ -7,6 +7,7 @@ tags: ['notes', 'WebAssembly']
 > 本文部分翻译自 fermyon 的一篇博客，原文地址： [https://www.fermyon.com/blog/webassembly-component-model](https://link.zhihu.com/?target=https%3A//www.fermyon.com/blog/webassembly-component-model)  
 > 对于一种语言生态而言，标准可能并不是其中最令人激动的部分。但是，“组件模型” 这个看似无聊的名称背后，是Wasm为软件世界带来的最重要的创新。组件模型正在快速发展，并且已经有了参考实现，2023 年很可能是组件模型开始重新定义我们如何编写软件的一年。
 
+
 WebAssembly 组件模型是一个[提案](https://link.zhihu.com/?target=https%3A//github.com/WebAssembly/proposals)，旨在通过定义模块在应用程序或库中如何组合来构建核心 WebAssembly 标准。正在开发该模型的[存储库](https://link.zhihu.com/?target=https%3A//github.com/WebAssembly/component-model)包括非正式规范和相关文档，但是这种详细程度可能会一开始让人有些不知所措。
 
 在本文中，我们首先简要解释组件模型的动因。然后，我们将建立对其工作方式的直觉，并将其与流行操作系统（如Windows、macOS和Linux）上的本地代码链接和运行进行比较。本文的目标受众是已经熟悉本地编译语言（如C、Rust和Go）以及动态链接和进程间通信等概念的开发人员。在下一个部分中，我们讨论一下 eunomia-bpf 社区在组件模型上的一些实践工作，并介绍一种名为WIT（Wasm Interface Type）的文档格式，用于描述组件模型接口的方式。
@@ -27,21 +28,21 @@ WebAssembly 组件模型是一个[提案](https://link.zhihu.com/?target=https%3
 
 如果您熟悉本地代码的链接和执行方式，那么您就会遇到“可执行文件”、“进程”和“共享库”等概念。组件模型具有相似的概念，但使用不同的术语。在这里，我们将为每个本地代码概念匹配其WebAssembly对应物，并考虑它们的相似之处和不同之处。
 
-### **组件 <-> 可执行文件**
+### **组件 ↔ 可执行文件**
 
 Wasm组件就像本地可执行文件一样：惰性且无状态，等待使用。
 
-### **模块 <-> 共享库**
+### **模块 ↔ 共享库**
 
 Wasm模块就像共享库（例如`.dll`、`.dylib`或`.so`），可以导出和/或导入符号，以便与其他代码链接在一起。与组件一样，模块是惰性且无状态的，等待使用。
 
-### **组件实例 <-> 进程**
+### **组件实例 ↔ 进程**
 
 组件的_实例_就像进程；它是组件的加载和运行形式；它是有状态和动态的。像进程一样，几个组件实例可以组织成树，以便每个节点都可以与其直接子节点通信。与进程一样，组件实例之间不共享内存或其他资源，必须通过某种主机介入方式进行通信。
 
 请注意，可以从同一可执行文件运行多个进程-有时同时运行-而这些进程不共享状态。同样，从同一组件产生的实例不共享状态。
 
-### **模块实例 <-> 已加载的共享库**
+### **模块实例 ↔ 已加载的共享库**
 
 模块的_实例_就像已加载和链接到进程中的库一样。它是有状态和动态的，与组件的其他部分共享内存和其他资源。
 
@@ -49,7 +50,7 @@ Wasm模块就像共享库（例如`.dll`、`.dylib`或`.so`），可以导出和
 
 一些共享库也可以是可执行文件；即它们可以被链接到进程或作为独立进程执行。同样，Wasm模块实例可以链接到组件实例中或由主机运行时独立运行。
 
-### **Wasm运行时 <-> 操作系统**
+### **Wasm运行时 ↔ 操作系统**
 
 Wasm运行时（例如`wasmtime`）类似于操作系统，它负责加载和链接组件（即进程）并在它们之间进行通信。
 
@@ -81,6 +82,7 @@ Wasm运行时（例如`wasmtime`）类似于操作系统，它负责加载和链
 在Fermyon，我们对组件模型感到兴奋，因为它对于使[Spin](https://link.zhihu.com/?target=https%3A//spin.fermyon.dev/)微服务安全、高效和易于开发至关重要。Spin已经使用Wasmtime的强大沙盒保证来将服务彼此隔离，并使用wit-bindgen提供高级别、语言无关的API，用于常见功能，如HTTP请求。未来，我们将积极贡献于Wasmtime和其他项目，以帮助实现组件支持，并在它们稳定后采用关键功能用于 Spin。
 
 > 在下一个部分中，我们希望讨论一下 eunomia-bpf 社区在组件模型上面的一些实践工作。eunomia-bpf 社区正在探索 eBPF 和 WebAssembly 相互结合的工具链和运行时: [https://github.com/eunomia-bpf/wasm-bpf](https://link.zhihu.com/?target=https%3A//github.com/eunomia-bpf/wasm-bpf) 。社区关注于简化 eBPF 程序的编写、分发和动态加载流程，以及探索 eBPF 和 Wasm 相结合的工具链、运行时和运用场景等技术。
+
 
 ### 组件模型的描述文件 - WIT
 

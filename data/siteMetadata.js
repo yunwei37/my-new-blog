@@ -1,20 +1,27 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  // Website Configuration
+  title: '云微的胡思乱想',
+  author: 'Yusheng Zheng',
+  headerTitle: 'yunwei37',
+  description: 'Personal Website of Yusheng Zheng | yunwei37',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://www.yunwei37.com',
+  siteRepo: 'https://github.com/yunwei37/my-new-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
+  locale: 'en-US',
+  // set to true if you want a navbar fixed to the top
+  stickyNav: false,
+
+  // Social Media Links
+  email: 'yunwei356@gmail.com',
+  github: 'https://github.com/yunwei37',
+  x: 'https://x.com/yunwei37',
+  linkedin: 'https://www.linkedin.com/in/yusheng-zheng-611920280',
+  reddit: 'https://reddit.com/u/yunwei123',
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  x: 'https://twitter.com/x',
-  // twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
@@ -22,9 +29,111 @@ const siteMetadata = {
   instagram: 'https://www.instagram.com',
   medium: 'https://medium.com',
   bluesky: 'https://bsky.app/',
-  locale: 'en-US',
-  // set to true if you want a navbar fixed to the top
-  stickyNav: false,
+
+  // Personal Profile Configuration (for Hero/Landing page)
+  hero: {
+    enabled: true,
+    showPersonalInfo: true,
+    name: 'Yusheng Zheng',
+    chineseName: '云微',
+    title: 'PhD Student & Open Source Developer',
+    tagline: 'Curious developer who finds joy in building and exploring',
+    description: 'Passionate about computer systems, programming languages, and large language models (LLMs). Creator of eunomia-bpf organization.',
+    avatar: '/static/images/avatar.png',
+    status: '🏠 Working from home',
+    location: 'SF',
+    organization: {
+      name: 'eunomia-bpf',
+      url: 'https://github.com/eunomia-bpf'
+    },
+    
+    // Interests/Skills
+    interests: [
+      { icon: '🖥', text: 'Computer Systems' },
+      { icon: '🧠', text: 'Large Language Models' }, 
+      { icon: '🔧', text: 'eBPF & System Programming' },
+      { icon: '☁️', text: 'Cloud Native Technologies' },
+      { icon: '🌐', text: 'WebAssembly' }
+    ],
+
+    // Highlights/Achievements
+    highlights: [
+      'Creator of eunomia-bpf organization',
+      'Open Source Innovation Pioneer Award recipient',
+      'OSPP & GSoC mentor/admin (2023, 2024)',
+      'OSDI\'25 paper accepted'
+    ],
+
+    // Recent Work/Publications
+    recentWork: [
+      {
+        title: 'OSDI\'25 Paper',
+        description: '"Extending Applications Safely and Efficiently" Got accepted',
+        type: 'publication',
+        year: '2025'
+      },
+      {
+        title: 'KubeCon Europe 2025',
+        description: '"eBPF and Wasm: Unifying Userspace Extensions With Bpftime"',
+        type: 'presentation',
+        year: '2025'
+      },
+      {
+        title: 'eBPF Summit 2024',
+        description: '"bpftime: Userspace eBPF Runtime for Network and Observability"',
+        type: 'presentation',
+        year: '2024'
+      }
+    ],
+
+    // Featured Projects
+    featuredProjects: [
+      {
+        name: 'bpftime',
+        description: 'Userspace eBPF runtime for Observability, Network, GPU & General Extensions Framework',
+        url: 'https://github.com/eunomia-bpf/bpftime',
+        stars: '1k',
+        language: 'C++',
+        featured: true
+      },
+      {
+        name: 'wasm-bpf',
+        description: 'WebAssembly library, toolchain and runtime for eBPF programs',
+        url: 'https://github.com/eunomia-bpf/wasm-bpf',
+        stars: '414',
+        language: 'Rust',
+        featured: true
+      },
+      {
+        name: 'bpf-developer-tutorial',
+        description: 'eBPF Developer Tutorial: Learning eBPF Step by Step with Examples',
+        url: 'https://github.com/eunomia-bpf/bpf-developer-tutorial',
+        stars: '3.2k',
+        language: 'C',
+        featured: true
+      }
+    ],
+
+    // Call to Action buttons
+    cta: [
+      {
+        text: 'Read the Blog',
+        href: '/blog',
+        primary: true
+      },
+      {
+        text: 'Browse Projects',
+        href: '/projects',
+        primary: false
+      },
+      {
+        text: 'View CV',
+        href: '/cv',
+        primary: false
+      }
+    ]
+  },
+
   // Background configuration for anime-style themes
   background: {
     // Choose background type: 'gradient', 'image', or 'video'

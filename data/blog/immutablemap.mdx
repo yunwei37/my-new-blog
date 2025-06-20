@@ -6,6 +6,7 @@ tags: ['notes']
 
 > 这几篇想简单谈谈一下自己在写代码时遇见的，或者阅读 llvm 相关代码时见到的数据结构实现。
 
+
 本文源代码：[https://github.com/yunwei37/immutable-map-rs](https://github.com/yunwei37/immutable-map-rs)
 
 ## 关于 ImmutableMap
@@ -14,10 +15,11 @@ ImmutableMap 是一种可持久化数据结构，在进行插入或删除操作�
 
 这里参考的是 llvm 中的 ImmutableMap/ImmutableSet 实现，采用一个平衡因子为 2 的 AVL 树[2]:
 
-<!-- more -->
+{/* more */}
 
 > ImmutableSet is an immutable (functional) set implementation based on an AVL tree. Adding or removing elements is done through a Factory object and results in the creation of a new ImmutableSet object. If an ImmutableSet already exists with the given contents, then the existing one is returned; equality is compared with a FoldingSetNodeID. The time and space complexity of add or remove operations is logarithmic in the size of the original set.
 > There is no method for returning an element of the set, you can only check for membership.
+
 
 ImmutableSet 是基于 AVL 树的不可变（功能）集实现。添加或删除元素是通过 Factory 对象完成的，并导致创建新的 ImmutableSet 对象。如果具有给定内容的 ImmutableSet 已经存在，则返回现有的；通过与 FoldingSetNodeID 进行比较判断是否相等。添加或删除操作的时间和空间复杂度与原始集合的大小成对数。
 

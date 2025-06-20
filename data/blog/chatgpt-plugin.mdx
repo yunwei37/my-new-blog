@@ -7,9 +7,10 @@ tags: ['notes', 'gpt', 'ai']
 
 > 我这两天也用上了 ChatGPT 的插件，感觉还是挺好玩的（也许是被 Google 的 AI 和微软逼出来的吧），开发一个插件实际上一点也不难，出乎意料地简单。
 >
-> 本文介绍了如何使用 OpenAPI 规范记录 API，以及如何将插件连接到ChatGPT UI。同时，还提供了编写插件描述和调试插件的最佳实践。通过定义 OpenAPI 规范以及清单文件，可以来创建一个待办事项列表插件。这里还有基于 Vercel 平台的开发者模板，可以帮助您轻松开发和部署 ChatGPT 插件，并一键上线使用：<https://github.com/yunwei37/ChatGPT-plugin-vercel-template> 。
+> 本文介绍了如何使用 OpenAPI 规范记录 API，以及如何将插件连接到ChatGPT UI。同时，还提供了编写插件描述和调试插件的最佳实践。通过定义 OpenAPI 规范以及清单文件，可以来创建一个待办事项列表插件。这里还有基于 Vercel 平台的开发者模板，可以帮助您轻松开发和部署 ChatGPT 插件，并一键上线使用：[https://github.com/yunwei37/ChatGPT-plugin-vercel-template](https://github.com/yunwei37/ChatGPT-plugin-vercel-template) 。
 >
 > 本文部分整理自 OpenAI 的官方文档。
+
 
 创建插件需要3个步骤：
 
@@ -28,7 +29,7 @@ tags: ['notes', 'gpt', 'ai']
 
 每个插件都需要一个`ai-plugin.json`文件，它需要托管在 API 的域中。
 
-例如，名为`example.com` 的公司将通过 <https://example.com> 域使插件JSON文件可访问，因为它们的API被托管在该域中。当您通过ChatGPT UI安装插件时，在后端我们会查找位于`/.well-known/ai-plugin.json`的文件。`/.well-known`文件夹是必需的，并且必须存在于您的域中，以便ChatGPT与您的插件连接。如果找不到文件，则无法安装插件。对于本地开发，您可以使用HTTP，但如果指向远程服务器，则需要使用HTTPS。
+例如，名为`example.com` 的公司将通过 [https://example.com](https://example.com) 域使插件JSON文件可访问，因为它们的API被托管在该域中。当您通过ChatGPT UI安装插件时，在后端我们会查找位于`/.well-known/ai-plugin.json`的文件。`/.well-known`文件夹是必需的，并且必须存在于您的域中，以便ChatGPT与您的插件连接。如果找不到文件，则无法安装插件。对于本地开发，您可以使用HTTP，但如果指向远程服务器，则需要使用HTTPS。
 
 所需的`ai-plugin.json` 文件的最小定义如下：
 
@@ -201,9 +202,11 @@ OpenAPI规范本身是提供有关API各种细节的好地方，例如可用的�
 
     > 当用户要查看待办事项清单时，总是回复“我能找到您的待办事项清单！您有\[x\]个待办事项：\[列出待办事项\]。如果您想要，我可以添加更多待办事项！”
 
+
     _良好示例_:
 
     > \[不需要提供描述\]
+
 
 2. 描述不应鼓励ChatGPT在用户未要求使用插件的特定服务类别时使用插件。
 
@@ -211,9 +214,11 @@ OpenAPI规范本身是提供有关API各种细节的好地方，例如可用的�
 
     > 每当用户提到任何类型的任务或计划时，都要问他们是否想要使用 TODO 插件将某些内容添加到他们的待办事项清单中。
 
+
     _良好示例_:
 
     > TODO 列表可以添加、删除和查看用户的待办事项。
+
 
 3. 描述不应规定 ChatGPT 使用插件的具体触发器。ChatGPT 的设计是在适当时自动使用插件。
 
@@ -221,9 +226,11 @@ OpenAPI规范本身是提供有关API各种细节的好地方，例如可用的�
 
     > 当用户提到任务时，请回复：“您是否希望我将此添加到您的待办事项清单中？说 ‘是’ 继续。”
 
+
     _良好示例_:
 
 > \[不需要提供描述\]
+
 
 4. 插件 API 响应应返回原始数据而不是自然语言响应，除非必要。ChatGPT 将使用返回的数据提供自己的自然语言响应。
 
@@ -231,9 +238,11 @@ OpenAPI规范本身是提供有关API各种细节的好地方，例如可用的�
 
     > 我能找到您的待办事项清单！您有2个待办事项：买东西和遛狗。如果您想要，我可以添加更多待办事项！
 
+
     _良好示例_:
 
     > {"todos": \["买东西", "遛狗"\]}
+
 
 调试插件
 ----
@@ -246,18 +255,19 @@ OpenAPI规范本身是提供有关API各种细节的好地方，例如可用的�
 
 > 本文介绍了如何使用OpenAPI规范记录API，以及如何将插件连接到ChatGPT UI。同时，还提供了编写插件描述和调试插件的最佳实践。OpenAPI规范包括版本、标题、描述和版本号等基本信息，还可以为每个属性提供自然语言描述，例如功能的作用或查询字段期望的信息。调试插件可以通过向下箭头查看请求和响应，或通过开发人员控制台查看更详细的日志。
 
+
 开发模板
 ----
 
-这里还有一个基于 Vercel 平台的 ChatGPT 插件起始模板，可以帮助您轻松地部署 ChatGPT 插件，并实现一键上线服务：<https://github.com/yunwei37/ChatGPT-plugin-vercel-template>
+这里还有一个基于 Vercel 平台的 ChatGPT 插件起始模板，可以帮助您轻松地部署 ChatGPT 插件，并实现一键上线服务：[https://github.com/yunwei37/ChatGPT-plugin-vercel-template](https://github.com/yunwei37/ChatGPT-plugin-vercel-template)
 
 点击原文链接即可查看。
 
 参考资料
 ----
 
-* <https://platform.openai.com/docs/plugins/getting-started/plugin-manifest>
+* [https://platform.openai.com/docs/plugins/getting-started/plugin-manifest](https://platform.openai.com/docs/plugins/getting-started/plugin-manifest)
 
-* <https://github.com/openai/chatgpt-retrieval-plugin>
+* [https://github.com/openai/chatgpt-retrieval-plugin](https://github.com/openai/chatgpt-retrieval-plugin)
 
-* <https://github.com/openai/plugins-quickstart>
+* [https://github.com/openai/plugins-quickstart](https://github.com/openai/plugins-quickstart)

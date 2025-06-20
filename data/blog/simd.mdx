@@ -6,6 +6,7 @@ tags: ['others']
 
 > 在应用 thrift 进行 RPC 通信的时候，由于 Thrift 采用了大端序，而 x86_64 等常见的处理器架构均为小端序，因此对于 list 这一类的数据类型需要一个循环来实现小端到大端的转换。而这个过程如果能够利用 SIMD 指令的话，可以极大的提高性能。这篇文章是在探索实现 Thrift 编译后端 Auto-vectorization Pass 的时候进行的一个尝试和学习，使用 avx2 指令集实现了一个简单的大小端转换的功能，并且对比了在不同条件下的加速性能。
 
+
 ## 原理
 
 ### 大小端转换
@@ -109,7 +110,8 @@ x = _mm256_shuffle_epi8(x,ShuffleRev);
 
 ![pshufb](img\pshufb_3.png)
 
-> 来源：<https://www.officedaytime.com/simd512e/simdimg/si.php?f=pshufb>
+> 来源：[https://www.officedaytime.com/simd512e/simdimg/si.php?f=pshufb](https://www.officedaytime.com/simd512e/simdimg/si.php?f=pshufb)
+
 
 在 gcc -O3 中，Auto-vectorization Pass 可以帮助我们自动识别可以被向量化的循环，并且使用 avx 指令集进行并行化优化。
 
@@ -204,6 +206,7 @@ void reverse64_basic(void *Array, size_t Count)
 
 > objdump -d ./avx > dump.s
 
+
 我们可以再检查一下生成的汇编指令：
 
 - 使用 bswap 的大小端转换
@@ -270,5 +273,5 @@ void reverse64_basic(void *Array, size_t Count)
 
 ## 参考资料
 
-- <https://github.com/Wunkolo/qreverse>
-- <https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html>
+- [https://github.com/Wunkolo/qreverse](https://github.com/Wunkolo/qreverse)
+- [https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html](https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html)

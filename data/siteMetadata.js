@@ -69,19 +69,22 @@ const siteMetadata = {
         title: 'OSDI\'25 Paper',
         description: '"Extending Applications Safely and Efficiently" Got accepted',
         type: 'publication',
-        year: '2025'
+        year: '2025',
+        href: 'https://www.usenix.org/conference/osdi25'
       },
       {
         title: 'KubeCon Europe 2025',
         description: '"eBPF and Wasm: Unifying Userspace Extensions With Bpftime"',
         type: 'presentation',
-        year: '2025'
+        year: '2025',
+        href: 'https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/'
       },
       {
         title: 'eBPF Summit 2024',
         description: '"bpftime: Userspace eBPF Runtime for Network and Observability"',
         type: 'presentation',
-        year: '2024'
+        year: '2024',
+        href: 'https://ebpf.io/summit-2024/'
       }
     ],
 
@@ -122,12 +125,12 @@ const siteMetadata = {
       },
       {
         text: 'Browse Projects',
-        href: '/projects',
+        href: 'https://github.com/yunwei37',
         primary: false
       },
       {
-        text: 'View CV',
-        href: '/cv',
+        text: 'Google Scholar',
+        href: 'https://scholar.google.com/citations?user=bUNH1WAAAAAJ',
         primary: false
       }
     ]

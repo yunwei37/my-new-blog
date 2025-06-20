@@ -100,15 +100,31 @@ export default function Hero() {
                 <h3 className="text-lg font-semibold mb-3">Recent Work</h3>
                 <div className="space-y-3">
                   {hero.recentWork.slice(0, 3).map((work, index) => (
-                    <div key={index} className="p-3 rounded-lg bg-white/30 dark:bg-black/30 border border-gray-200/30 dark:border-gray-700/30">
-                      <div className="flex items-start justify-between">
-                        <div className="flex-1">
-                          <h4 className="font-medium text-sm">{work.title}</h4>
-                          <p className="text-sm opacity-80 mt-1">{work.description}</p>
+                    work.href ? (
+                      <Link
+                        key={index}
+                        href={work.href}
+                        className="block p-3 rounded-lg bg-white/30 dark:bg-black/30 border border-gray-200/30 dark:border-gray-700/30 hover:bg-white/40 dark:hover:bg-black/40 transition-all duration-200"
+                      >
+                        <div className="flex items-start justify-between">
+                          <div className="flex-1">
+                            <h4 className="font-medium text-sm">{work.title}</h4>
+                            <p className="text-sm opacity-80 mt-1">{work.description}</p>
+                          </div>
+                          <span className="text-xs opacity-60 ml-3">{work.year}</span>
                         </div>
-                        <span className="text-xs opacity-60 ml-3">{work.year}</span>
+                      </Link>
+                    ) : (
+                      <div key={index} className="p-3 rounded-lg bg-white/30 dark:bg-black/30 border border-gray-200/30 dark:border-gray-700/30">
+                        <div className="flex items-start justify-between">
+                          <div className="flex-1">
+                            <h4 className="font-medium text-sm">{work.title}</h4>
+                            <p className="text-sm opacity-80 mt-1">{work.description}</p>
+                          </div>
+                          <span className="text-xs opacity-60 ml-3">{work.year}</span>
+                        </div>
                       </div>
-                    </div>
+                    )
                   ))}
                 </div>
               </div>

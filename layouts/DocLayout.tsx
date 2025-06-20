@@ -10,9 +10,15 @@ interface DocLayoutProps {
   allDocs: { slug: string; title: string; path: string }[]
 }
 
+interface NavNode {
+  name: string
+  children: { [key: string]: NavNode }
+  doc: { slug: string; title: string; path: string } | null
+}
+
 // 构建文档导航树
 function buildNavTree(docs: { slug: string; title: string; path: string }[]) {
-  const tree: { [key: string]: any } = {}
+  const tree: { [key: string]: NavNode } = {}
   
   docs.forEach((doc) => {
     const pathParts = doc.slug.split('/')
@@ -34,8 +40,8 @@ function buildNavTree(docs: { slug: string; title: string; path: string }[]) {
 }
 
 // 渲染导航树
-function renderNavTree(tree: any, prefix = '') {
-  return Object.entries(tree).map(([key, value]: [string, any]) => {
+function renderNavTree(tree: { [key: string]: NavNode }, prefix = '') {
+  return Object.entries(tree).map(([key, value]: [string, NavNode]) => {
     const hasChildren = Object.keys(value.children).length > 0
     
     if (value.doc) {

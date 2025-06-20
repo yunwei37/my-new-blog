@@ -14,7 +14,7 @@ interface DocItem {
 }
 
 // 构建目录结构
-function buildDirectoryStructure(docs: any[]): DocItem[] {
+function buildDirectoryStructure(docs: { slug: string; title: string; path: string }[]): DocItem[] {
   const result: DocItem[] = []
   const pathMap: { [key: string]: DocItem } = {}
   

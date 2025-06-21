@@ -1,0 +1,825 @@
+1:"$Sreact.fragment"
+2:I[1478,["874","static/chunks/874-df267709252ebb11.js","650","static/chunks/650-632ff76597c6efb2.js","177","static/chunks/app/layout-c6384677b62c24ff.js"],"ThemeProviders"]
+3:I[4091,["874","static/chunks/874-df267709252ebb11.js","650","static/chunks/650-632ff76597c6efb2.js","177","static/chunks/app/layout-c6384677b62c24ff.js"],"default"]
+4:I[9243,["874","static/chunks/874-df267709252ebb11.js","650","static/chunks/650-632ff76597c6efb2.js","177","static/chunks/app/layout-c6384677b62c24ff.js"],""]
+5:I[7392,["874","static/chunks/874-df267709252ebb11.js","650","static/chunks/650-632ff76597c6efb2.js","177","static/chunks/app/layout-c6384677b62c24ff.js"],"KBarSearchProvider"]
+6:I[6874,["874","static/chunks/874-df267709252ebb11.js","40","static/chunks/app/docs/page-724cc44d01819f43.js"],""]
+7:I[4159,["874","static/chunks/874-df267709252ebb11.js","650","static/chunks/650-632ff76597c6efb2.js","177","static/chunks/app/layout-c6384677b62c24ff.js"],"KBarButton"]
+8:I[1762,["874","static/chunks/874-df267709252ebb11.js","650","static/chunks/650-632ff76597c6efb2.js","177","static/chunks/app/layout-c6384677b62c24ff.js"],"default"]
+9:I[7298,["874","static/chunks/874-df267709252ebb11.js","650","static/chunks/650-632ff76597c6efb2.js","177","static/chunks/app/layout-c6384677b62c24ff.js"],"default"]
+a:I[7555,[],""]
+b:I[1295,[],""]
+f:I[9665,[],"OutletBoundary"]
+12:I[9665,[],"ViewportBoundary"]
+14:I[9665,[],"MetadataBoundary"]
+16:I[6614,[],""]
+:HL["/_next/static/media/7cba1811e3c25a15-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/9be69a079df6f545.css","style"]
+:HL["/_next/static/css/f9236d0641f48cb2.css","style"]
+c:T69f,M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439zd:T498,M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z0:{"P":null,"b":"MZPuX2TtFC0DXLrIOlDsG","p":"","c":["","docs","%E6%80%A7%E4%B8%8E%E6%80%A7%E5%88%AB%E6%B5%81%E5%8A%A8","%E6%95%85%E4%BA%8B","world_background"],"i":false,"f":[[["",{"children":["docs",{"children":[["slug","%E6%80%A7%E4%B8%8E%E6%80%A7%E5%88%AB%E6%B5%81%E5%8A%A8/%E6%95%85%E4%BA%8B/world_background","c"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/9be69a079df6f545.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/f9236d0641f48cb2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en-us","className":"__variable_bc0dcf scroll-smooth","suppressHydrationWarning":true,"children":[["$","link",null,{"rel":"apple-touch-icon","sizes":"76x76","href":"/static/favicons/apple-touch-icon.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"32x32","href":"/static/favicons/favicon-32x32.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"16x16","href":"/static/favicons/favicon-16x16.png"}],["$","link",null,{"rel":"manifest","href":"/static/favicons/site.webmanifest"}],["$","link",null,{"rel":"mask-icon","href":"/static/favicons/safari-pinned-tab.svg","color":"#5bbad5"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"#fff"}],["$","meta",null,{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"#000"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","href":"/feed.xml"}],["$","body",null,{"className":"pl-[calc(100vw-100%)] text-black antialiased dark:text-white min-h-screen","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$undefined","$undefined","$undefined",["$","$L4",null,{"async":true,"defer":true,"src":"https://analytics.umami.is/script.js"}],"$undefined","$undefined"],["$","div",null,{"className":"min-h-screen flex flex-col justify-center py-8","children":["$","div",null,{"className":"content-glass mx-auto w-full max-w-5xl px-4 sm:px-6 xl:px-8 py-8","children":["$","$L5",null,{"kbarConfig":{"searchDocumentsPath":"/search.json"},"children":[["$","header",null,{"className":"flex items-center w-full justify-between py-6 border-b border-gray-200/30 dark:border-gray-700/30","children":[["$","$L6",null,{"className":"break-words","href":"/","aria-label":"yunwei37","children":["$","div",null,{"className":"flex items-center","children":[["$","div",null,{"className":"mr-3","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":40,"height":40,"fill":"none","children":[["$","defs",null,{"children":[["$","linearGradient",null,{"id":"logo_svg__a","x1":"0%","x2":"100%","y1":"0%","y2":"100%","children":[["$","stop",null,{"offset":"0%","style":{"stopColor":"#3b82f6","stopOpacity":1}}],["$","stop",null,{"offset":"100%","style":{"stopColor":"#06b6d4","stopOpacity":1}}]]}],["$","linearGradient",null,{"id":"logo_svg__b","x1":"0%","x2":"100%","y1":"0%","y2":"100%","children":[["$","stop",null,{"offset":"0%","style":{"stopColor":"#8b5cf6","stopOpacity":1}}],["$","stop",null,{"offset":"100%","style":{"stopColor":"#3b82f6","stopOpacity":1}}]]}]]}],["$","circle",null,{"cx":20,"cy":20,"r":18,"fill":"url(#logo_svg__a)","opacity":0.1}],["$","path",null,{"fill":"url(#logo_svg__a)","d":"m12 8 6 10v10h4V18l6-10h-4l-4 6-4-6Z"}],["$","path",null,{"fill":"url(#logo_svg__b)","d":"m8 24 4 8 4-8 4 8 4-8h8v4h-6l-4 8-4-8-4 8-4-8H8Z","opacity":0.8}],["$","circle",null,{"cx":32,"cy":12,"r":2,"fill":"url(#logo_svg__b)"}],["$","circle",null,{"cx":8,"cy":12,"r":1.5,"fill":"url(#logo_svg__a)","opacity":0.6}]]}]}],["$","div",null,{"className":"hidden text-2xl font-bold sm:block hover:text-primary-600 dark:hover:text-primary-400 transition-colors","children":"yunwei37"}]]}]}],["$","div",null,{"className":"flex items-center space-x-4","children":[["$","div",null,{"className":"no-scrollbar hidden items-center space-x-2 sm:flex","children":[["$","$L6","Blog",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/blog","children":"Blog"}],["$","$L6","Docs",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/docs","children":"Docs"}],["$","$L6","Tags",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/tags","children":"Tags"}],["$","$L6","About",{"className":"px-3 py-2 rounded-lg transition-all duration-200 font-medium hover:text-primary-600 dark:hover:text-primary-400","href":"/about","children":"About"}]]}],["$","div",null,{"className":"flex items-center space-x-2","children":[["$","$L7",null,{"aria-label":"Search","className":"p-2 rounded-lg transition-all duration-200","children":["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","fill":"none","viewBox":"0 0 24 24","strokeWidth":1.5,"stroke":"currentColor","className":"h-6 w-6 hover:text-primary-600 dark:hover:text-primary-400 transition-colors","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","d":"M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"}]}]}],["$","$L8",null,{}],["$","$L9",null,{}]]}]]}]]}],["$","main",null,{"className":"py-6","children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex flex-col items-start justify-start md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6","children":[["$","div",null,{"className":"space-x-2 pt-6 pb-8 md:space-y-5","children":["$","h1",null,{"className":"text-6xl leading-9 font-extrabold tracking-tight md:border-r-2 md:px-6 md:text-8xl md:leading-14","children":"404"}]}],["$","div",null,{"className":"max-w-md","children":[["$","p",null,{"className":"mb-4 text-xl leading-normal font-bold md:text-2xl","children":"Sorry we couldn't find this page."}],["$","p",null,{"className":"mb-8","children":"But dont worry, you can find plenty of other things on our homepage."}],["$","$L6",null,{"className":"focus:shadow-outline-blue inline rounded-lg border border-transparent bg-blue-600 px-4 py-2 text-sm leading-5 font-medium text-white shadow-xs transition-colors duration-150 hover:bg-blue-700 focus:outline-hidden dark:hover:bg-blue-500","href":"/","children":"Back to homepage"}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t border-gray-200/30 dark:border-gray-700/30 pt-8","children":["$","div",null,{"className":"flex flex-col items-center space-y-6","children":[["$","div",null,{"className":"flex flex-wrap justify-center gap-4","children":[["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"mailto:yunwei356@gmail.com","children":[["$","span",null,{"className":"sr-only","children":"mail"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Mail"}],["$","path",null,{"d":"M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"}],["$","path",null,{"d":"M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/yunwei37","children":[["$","span",null,{"className":"sr-only","children":"github"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"GitHub"}],["$","path",null,{"d":"M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://facebook.com","children":[["$","span",null,{"className":"sr-only","children":"facebook"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Facebook"}],["$","path",null,{"d":"M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://youtube.com","children":[["$","span",null,{"className":"sr-only","children":"youtube"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Youtube"}],["$","path",null,{"d":"M23.499 6.203a3.008 3.008 0 00-2.089-2.089c-1.87-.501-9.4-.501-9.4-.501s-7.509-.01-9.399.501a3.008 3.008 0 00-2.088 2.09A31.258 31.26 0 000 12.01a31.258 31.26 0 00.523 5.785 3.008 3.008 0 002.088 2.089c1.869.502 9.4.502 9.4.502s7.508 0 9.399-.502a3.008 3.008 0 002.089-2.09 31.258 31.26 0 00.5-5.784 31.258 31.26 0 00-.5-5.808zm-13.891 9.4V8.407l6.266 3.604z"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.linkedin.com/in/yusheng-zheng-611920280","children":[["$","span",null,{"className":"sr-only","children":"linkedin"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Linkedin"}],["$","path",null,{"d":"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"}]]}]]}],null,["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://bsky.app/","children":[["$","span",null,{"className":"sr-only","children":"bluesky"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Bluesky"}],["$","path",null,{"d":"M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565C.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479c.815 2.736 3.713 3.66 6.383 3.364q.204-.03.415-.056q-.207.033-.415.056c-3.912.58-7.387 2.005-2.83 7.078c5.013 5.19 6.87-1.113 7.823-4.308c.953 3.195 2.05 9.271 7.733 4.308c4.267-4.308 1.172-6.498-2.74-7.078a9 9 0 0 1-.415-.056q.21.026.415.056c2.67.297 5.568-.628 6.383-3.364c.246-.828.624-5.79.624-6.478c0-.69-.139-1.861-.902-2.206c-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://x.com/yunwei37","children":[["$","span",null,{"className":"sr-only","children":"x"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"X"}],["$","path",null,{"d":"M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.instagram.com","children":[["$","span",null,{"className":"sr-only","children":"instagram"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Instagram"}],["$","path",null,{"d":"$c"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://www.threads.net","children":[["$","span",null,{"className":"sr-only","children":"threads"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Threads"}],["$","path",null,{"d":"$d"}]]}]]}],["$","a",null,{"className":"text-sm text-gray-500 transition hover:text-gray-600","target":"_blank","rel":"noopener noreferrer","href":"https://medium.com","children":[["$","span",null,{"className":"sr-only","children":"medium"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 24 24","className":"hover:text-primary-500 dark:hover:text-primary-400 fill-current text-gray-700 dark:text-gray-200 h-6 w-6","children":[["$","title",null,{"children":"Medium"}],["$","path",null,{"d":"M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"}]]}]]}]]}],["$","div",null,{"className":"flex space-x-2 text-sm opacity-80","children":[["$","div",null,{"children":"Yusheng Zheng"}],["$","div",null,{"children":" • "}],["$","div",null,{"children":"© 2025"}],["$","div",null,{"children":" • "}],["$","$L6",null,{"className":"hover:text-primary-500 transition-colors","href":"/","children":"云微的胡思乱想"}]]}],["$","div",null,{"className":"text-sm opacity-60","children":["$","a",null,{"className":"hover:text-primary-500 transition-colors","target":"_blank","rel":"noopener noreferrer","href":"https://github.com/timlrx/tailwind-nextjs-starter-blog","children":"Tailwind Nextjs Theme"}]}]]}]}]]}]}]}]]}]}]]}]]}],{"children":["docs",["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","%E6%80%A7%E4%B8%8E%E6%80%A7%E5%88%AB%E6%B5%81%E5%8A%A8/%E6%95%85%E4%BA%8B/world_background","c"],["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$Le","$undefined",null,["$","$Lf",null,{"children":["$L10","$L11",null]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","dpECoqy9c_S-81XLlhY3B",{"children":[["$","$L12",null,{"children":"$L13"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$L14",null,{"children":"$L15"}]]}],false]],"m":"$undefined","G":["$16","$undefined"],"s":false,"S":true}
+17:Ta20c,<h1>Era of Scheme (E.S.) 世界观设定与历史时间线</h1>
+<h2>1. 核心概念框架</h2>
+<h3>1.1 Era of Scheme 的定义</h3>
+<p>"Era of Scheme"（策略时代，简称 E.S.）始于2070年，标志着人类社会进入由生物技术、数字技术与社会工程深度融合的新纪元。这个时代的核心特征是个体身份、性别表达、亲密关系模式的高度可塑性，以及由此产生的复杂社会治理挑战。</p>
+<h3>1.2 技术基础三支柱</h3>
+<ul>
+<li><strong>生物可塑性技术</strong>：激素精准调控、器官模块化更换、基因编辑与表观遗传修饰</li>
+<li><strong>数字亲密技术</strong>：脑机接口、全感官虚拟现实、情感共享网络</li>
+<li><strong>身份流动技术</strong>：外观定制化、性别转换技术、记忆与人格模块化</li>
+</ul>
+<p><em>注：AGI（通用人工智能）在2030年代的突破为这些技术提供了强大的计算支持和个性化优化，但人际关系的核心仍然是人与人之间的情感连接。</em></p>
+<h3>1.3 社会结构特征</h3>
+<ul>
+<li><strong>身份流动社会</strong>：传统二元性别体系瓦解，出现多元化身份光谱</li>
+<li><strong>关系模块化</strong>：婚姻、友谊、性关系高度定制化和契约化</li>
+<li><strong>治理复杂化</strong>：传统法律框架面临挑战，需要新的伦理和监管体系</li>
+</ul>
+<h2>2. 简要历史概述</h2>
+<p>Era of Scheme的历史发展可以分为几个主要阶段：</p>
+<h3>2.1 技术萌芽期（2024-2040）</h3>
+<p>这一时期见证了关键技术的基础突破，包括AI能力的快速提升（2030年前后实现AGI突破）、生物技术的医疗应用普及、虚拟现实的消费级成熟，以及社会对这些技术的初步适应。AGI的出现主要作为技术加速器，为个性化医疗、情感分析和社会协调提供强大支持。</p>
+<h3>2.2 技术整合期（2041-2070）</h3>
+<p>技术开始深度融合，生物-数字混合系统成为现实，社会规范和法律框架逐步建立，传统社会结构开始重构。</p>
+<h3>2.3 体系成熟期（2041-2070）</h3>
+<p>新的社会制度逐步完善，技术应用达到成熟阶段，为Era of Scheme的正式开始奠定了基础。</p>
+<h3>2.4 Era of Scheme时期（2070-2101）</h3>
+<p>正式进入Era of Scheme，经历了制度建构、社会动荡、最终形成相对稳定的新社会秩序三个阶段。</p>
+<p><em>详细的技术发展时间线请参考《Era of Scheme 技术发展时间线》文档。</em></p>
+<h2>3. 核心社会议题与冲突</h2>
+<h3>3.1 身体主权与社会秩序</h3>
+<p><strong>核心矛盾</strong>：个体身体改造自由与社会稳定秩序之间的张力</p>
+<p><strong>具体表现</strong>：</p>
+<ul>
+<li>极端身体改造对公共识别系统的冲击</li>
+<li>父母对未成年子女身体改造决定权的边界</li>
+<li>工作场所对员工身体形态的要求与歧视</li>
+<li>军队、监狱等特殊机构的身体管理需求</li>
+</ul>
+<h3>3.2 增强平等与自然多样性</h3>
+<p><strong>核心矛盾</strong>：技术增强的公平分配与保护"自然"人类多样性的冲突</p>
+<p><strong>具体表现</strong>：</p>
+<ul>
+<li>"增强歧视"：未增强者在就业、教育中的劣势</li>
+<li>"原生人类保护区"的设立与争议</li>
+<li>基因编辑对人类遗传多样性的潜在威胁</li>
+<li>贫富差距在身体能力上的固化</li>
+</ul>
+<h3>3.3 数字亲密与真实关系</h3>
+<p><strong>核心矛盾</strong>：数字工具增强的人际关系与传统亲密关系模式的冲突</p>
+<p><strong>具体表现</strong>：</p>
+<ul>
+<li>过度依赖数字情感工具对真实社交能力的冲击</li>
+<li>虚拟增强的人际关系的真实性边界问题</li>
+<li>数字原生代与传统世代的关系观念分歧</li>
+<li>情感数据的商品化与隐私保护</li>
+<li>人工智能辅助的情感分析对关系自主性的影响</li>
+</ul>
+<h3>3.4 性别解构与文化传承</h3>
+<p><strong>核心矛盾</strong>：性别流动性与传统文化价值的传承需求</p>
+<p><strong>具体表现</strong>：</p>
+<ul>
+<li>宗教保守势力的反弹与"禁色法"等限制性法律</li>
+<li>传统性别仪式与象征的适应性改造</li>
+<li>跨代价值观传递的困境</li>
+<li>文化身份认同的重构需求</li>
+</ul>
+<h2>4. 技术体系详解</h2>
+<h3>4.1 生物可塑性技术栈</h3>
+<h4>基础层：细胞与分子操控</h4>
+<ul>
+<li><strong>CRISPR 4.0</strong>：精确度达到99.99%的基因编辑系统</li>
+<li><strong>表观遗传调控器</strong>：可逆的基因表达调节技术</li>
+<li><strong>干细胞工厂</strong>：批量生产特定功能细胞的生物反应器</li>
+<li><strong>纳米修复机器人</strong>：在分子层面修复组织损伤</li>
+</ul>
+<h4>应用层：器官与系统</h4>
+<ul>
+<li><strong>模块化器官</strong>：可热插拔的人工器官系统</li>
+<li><strong>激素调谐器</strong>：精准控制内分泌系统的植入设备</li>
+<li><strong>神经可塑性增强剂</strong>：加速神经连接重构的生物制剂</li>
+<li><strong>免疫编程疫苗</strong>：训练免疫系统识别特定组织模式</li>
+</ul>
+<h4>整合层：全身系统协调</h4>
+<ul>
+<li><strong>生物操作系统</strong>：统一管理各种植入设备的控制系统</li>
+<li><strong>健康监控网络</strong>：实时监测身体各项指标的传感器网络</li>
+<li><strong>自适应调节算法</strong>：根据环境和需求自动调整身体参数</li>
+<li><strong>兼容性协议</strong>：确保不同品牌设备之间的互操作性</li>
+</ul>
+<h3>4.2 数字亲密技术栈</h3>
+<h4>感知层：多感官接口</h4>
+<ul>
+<li><strong>全息触觉套装</strong>：提供完整身体触觉反馈的可穿戴设备</li>
+<li><strong>嗅觉传输器</strong>：远程传送气味信息的分子级设备</li>
+<li><strong>情感检测器</strong>：通过生理信号识别情感状态的传感器</li>
+<li><strong>脑电接口</strong>：直接读取和刺激大脑活动的植入设备</li>
+</ul>
+<h4>处理层：情感计算引擎</h4>
+<ul>
+<li><strong>情感AI核心</strong>：理解和生成人类情感的深度学习模型</li>
+<li><strong>个性模拟器</strong>：根据用户偏好定制AI伴侣性格的算法</li>
+<li><strong>关系动态建模</strong>：预测和优化人际关系发展的系统</li>
+<li><strong>同理心增强器</strong>：提升AI理解人类情感的能力模块</li>
+</ul>
+<h4>体验层：沉浸式环境</h4>
+<ul>
+<li><strong>虚拟亲密空间</strong>：专为亲密关系设计的VR环境</li>
+<li><strong>混合现实叠加</strong>：在真实环境中叠加虚拟情感元素</li>
+<li><strong>时空同步技术</strong>：让远程用户感受相同的虚拟时空</li>
+<li><strong>记忆共享平台</strong>：允许用户共享和体验彼此记忆的技术</li>
+</ul>
+<h3>4.3 身份流动技术栈</h3>
+<h4>生理层：外观可塑技术</h4>
+<ul>
+<li><strong>快速整形机器人</strong>：在数小时内完成外观改造的微型机器人</li>
+<li><strong>皮肤显示屏</strong>：可以改变颜色和纹理的智能皮肤</li>
+<li><strong>骨骼调节器</strong>：无痛改变身高和体型的内置设备</li>
+<li><strong>声线调制器</strong>：实时改变声音特征的喉部植入设备</li>
+</ul>
+<h4>认知层：身份重构技术</h4>
+<ul>
+<li><strong>记忆编辑器</strong>：选择性修改或增强特定记忆的设备</li>
+<li><strong>人格调节剂</strong>：通过神经化学手段调整性格特征</li>
+<li><strong>认知增强器</strong>：提升特定认知能力的脑部植入设备</li>
+<li><strong>意识备份系统</strong>：保存和恢复意识状态的神经元存储技术</li>
+</ul>
+<h4>社会层：身份验证技术</h4>
+<ul>
+<li><strong>数字身份令牌</strong>：基于多重生物识别的不可伪造身份证明</li>
+<li><strong>行为模式识别</strong>：通过独特行为特征进行身份验证</li>
+<li><strong>社会关系图谱</strong>：基于人际关系网络的身份确认系统</li>
+<li><strong>信誉区块链</strong>：记录个体社会行为历史的分布式数据库</li>
+</ul>
+<h2>5. 伦理哲学框架</h2>
+<h3>5.1 核心伦理原则</h3>
+<h4>身体自主原则</h4>
+<p><strong>定义</strong>：每个个体都有权决定自己身体的形态、功能和表达方式
+<strong>限制条件</strong>：</p>
+<ul>
+<li>不得对他人造成直接伤害</li>
+<li>必须承担相应的社会责任</li>
+<li>需要考虑对未来世代的影响</li>
+<li>受制于资源分配的公平性要求</li>
+</ul>
+<h4>增强平等原则</h4>
+<p><strong>定义</strong>：所有人都应该有平等的机会获得基本的身体和认知增强
+<strong>实现机制</strong>：</p>
+<ul>
+<li>政府提供基础增强技术的公共资助</li>
+<li>通过税收再分配减少增强鸿沟</li>
+<li>建立"增强难民"保护制度</li>
+<li>设立"原生人类"权利保护机制</li>
+</ul>
+<h4>关系自由原则</h4>
+<p><strong>定义</strong>：个体有权选择符合自己价值观的亲密关系形式
+<strong>边界条件</strong>：</p>
+<ul>
+<li>所有参与者必须具备充分的同意能力</li>
+<li>不得涉及对未成年人的伤害</li>
+<li>需要考虑对社会结构的冲击</li>
+<li>受制于文化多样性保护的要求</li>
+</ul>
+<h4>代际责任原则</h4>
+<p><strong>定义</strong>：当代人在做出技术选择时必须考虑对未来世代的影响
+<strong>操作指导</strong>：</p>
+<ul>
+<li>优先选择可逆的技术路径</li>
+<li>保护人类基因和文化的多样性</li>
+<li>建立技术风险的长期监测机制</li>
+<li>确保未来世代有改变方向的能力</li>
+</ul>
+<h3>5.2 冲突解决机制</h3>
+<h4>价值冲突的调解框架</h4>
+<ol>
+<li><strong>利益相关者识别</strong>：确定所有受影响的群体</li>
+<li><strong>价值权重评估</strong>：评估不同价值观在具体情境中的重要性</li>
+<li><strong>后果分析建模</strong>：预测不同选择的长期社会后果</li>
+<li><strong>公众参与程序</strong>：通过民主程序确定社会共识</li>
+<li><strong>动态调整机制</strong>：根据实践效果调整政策方向</li>
+</ol>
+<h4>技术争议的仲裁制度</h4>
+<ul>
+<li><strong>跨学科专家委员会</strong>：由伦理学家、技术专家、社会学家组成</li>
+<li><strong>公民陪审团制度</strong>：随机选择的公民参与技术政策决策</li>
+<li><strong>国际协调机制</strong>：处理跨国界的技术伦理争议</li>
+<li><strong>司法审查程序</strong>：通过法院系统解决具体案件争议</li>
+</ul>
+<h2>6. 故事设定的现实基础</h2>
+<h3>6.1 当前社会议题的延伸</h3>
+<h4>性别认同与表达自由</h4>
+<p><strong>现实基础</strong>：跨性别权利运动、非二元性别认同的社会接受度提升
+<strong>未来演化</strong>：技术使性别转换更加容易和可逆，社会结构相应调整
+<strong>具体体现</strong>：《禁色法》反映保守势力的反弹，"外观诚实运动"体现社会适应的复杂性</p>
+<h4>数字化亲密关系</h4>
+<p><strong>现实基础</strong>：在线约会、远程关系、AI聊天机器人的普及
+<strong>未来演化</strong>：VR和AI技术创造更真实的虚拟关系体验
+<strong>具体体现</strong>：AI伴侣植入引发的人格权争议，虚拟关系的法律地位问题</p>
+<h4>技术不平等与社会分层</h4>
+<p><strong>现实基础</strong>：教育鸿沟、医疗不平等、技术获取的阶层差异
+<strong>未来演化</strong>：身体增强技术可能固化甚至扩大社会不平等
+<strong>具体体现</strong>：算法歧视抗议，增强技术的分配正义问题</p>
+<h4>隐私权与数据保护</h4>
+<p><strong>现实基础</strong>：GDPR、数据泄露事件、监控技术的普及
+<strong>未来演化</strong>：生物数据和情感数据的保护变得更加复杂
+<strong>具体体现</strong>：《数字身体权保护法》的制定，生物识别技术的滥用风险</p>
+<h3>6.2 技术发展的合理推断</h3>
+<h4>生物技术的进步轨迹</h4>
+<p><strong>CRISPR技术的改进</strong>：从当前的99.9%精确度到未来的99.99%
+<strong>器官再生技术</strong>：从简单组织到复杂器官的完整再生
+<strong>激素调节技术</strong>：从粗糙的激素替代到精准的内分泌调控</p>
+<h4>数字技术的融合趋势</h4>
+<p><strong>脑机接口的发展</strong>：从当前的简单控制到未来的情感交互
+<strong>虚拟现实的演进</strong>：从视听体验到全感官沉浸
+<strong>人工智能的进化</strong>：从任务执行到情感陪伴</p>
+<h4>社会制度的适应性变化</h4>
+<p><strong>法律体系的更新</strong>：应对新技术带来的法律空白
+<strong>教育体系的重构</strong>：适应能力增强时代的教育需求
+<strong>治理模式的创新</strong>：处理复杂多元的社会群体需求</p>
+<h3>6.3 文化价值观的演变预测</h3>
+<h4>个人主义与集体主义的平衡</h4>
+<p>技术增强个人选择自由的同时，也需要更强的社会协调机制</p>
+<h4>传统与创新的张力</h4>
+<p>新技术挑战传统价值观，但传统文化也在寻找适应路径</p>
+<h4>全球化与本土化的互动</h4>
+<p>技术标准趋向全球统一，但文化应用保持地域特色</p>
+<h2>7. 经济与政治体系重构</h2>
+<h3>7.1 身体经济学的兴起</h3>
+<h4>生物资本主义的发展</h4>
+<p><strong>定义</strong>：以身体改造能力、生物数据和遗传信息为核心的新型资本主义形态</p>
+<p><strong>主要特征</strong>：</p>
+<ul>
+<li><strong>身体作为生产资料</strong>：个体的生物特征成为经济价值创造的直接要素</li>
+<li><strong>遗传资本</strong>：优质基因和表观遗传标记成为可交易的稀缺资源</li>
+<li><strong>增强服务产业</strong>：围绕身体优化和定制化的庞大产业生态</li>
+<li><strong>生物数据垄断</strong>：掌握基因和生理数据的企业获得巨大市场优势</li>
+</ul>
+<h4>新型劳动关系</h4>
+<p><strong>情感劳动的正式化</strong>：</p>
+<ul>
+<li>AI伴侣训练师：专门训练AI理解特定文化情感模式的专业人员</li>
+<li>虚拟关系顾问：帮助个体在数字空间建立健康关系的心理专家</li>
+<li>身体体验设计师：为特定群体设计身体改造方案的创意专业人员</li>
+</ul>
+<p><strong>增强劳动者保护</strong>：</p>
+<ul>
+<li>《增强劳动者权益保护法》：防止雇主强制员工进行特定身体改造</li>
+<li>"增强中性"工作岗位：确保未增强者能够平等竞争的职位类别</li>
+<li>技能转换支持：为因技术变革失业的工人提供新技能培训</li>
+</ul>
+<h3>7.2 治理模式创新</h3>
+<h4>参与式技术治理</h4>
+<p><strong>公民技术陪审团</strong>：</p>
+<ul>
+<li>随机选择的公民小组对重大技术政策进行审议</li>
+<li>结合专家咨询和公众参与的混合决策模式</li>
+<li>确保技术发展方向符合社会整体福祉</li>
+</ul>
+<p><strong>算法透明度委员会</strong>：</p>
+<ul>
+<li>监管影响个体生活的AI系统的公开性和可解释性</li>
+<li>要求关键算法通过社会影响评估</li>
+<li>建立算法偏见的投诉和纠正机制</li>
+</ul>
+<h4>联邦制身体政策</h4>
+<p><strong>地方自主权</strong>：</p>
+<ul>
+<li>各地区可根据文化传统制定不同的身体改造政策</li>
+<li>尊重宗教和民族群体的特殊需求</li>
+<li>建立跨地区协调机制处理冲突</li>
+</ul>
+<p><strong>全球最低标准</strong>：</p>
+<ul>
+<li>基本人权保护：禁止强制性身体改造</li>
+<li>儿童保护：限制未成年人进行不可逆身体改造</li>
+<li>安全底线：所有改造技术必须通过国际安全认证</li>
+</ul>
+<h3>7.3 新型社会保障制度</h3>
+<h4>全民基本增强保险</h4>
+<p><strong>覆盖范围</strong>：</p>
+<ul>
+<li>基础生理功能维护和修复</li>
+<li>基本认知能力保障</li>
+<li>意外改造失败的救治费用</li>
+<li>心理健康和身份适应支持</li>
+</ul>
+<p><strong>资金来源</strong>：</p>
+<ul>
+<li>增强技术企业的特别税收</li>
+<li>基因和生物数据使用费</li>
+<li>国际技术转移基金</li>
+<li>富裕个体的"身体奢侈税"</li>
+</ul>
+<h4>身体资产保护制度</h4>
+<p><strong>个人生物数据主权</strong>：</p>
+<ul>
+<li>个体对自己的基因信息拥有完全所有权</li>
+<li>严格的同意机制保护生物数据使用</li>
+<li>数据泄露的严厉惩罚和受害者补偿</li>
+<li>跨国数据传输的监管框架</li>
+</ul>
+<h2>8. 文化运动与社会思潮</h2>
+<h3>8.1 身体解放运动的演进</h3>
+<h4>形态自由主义（Morphological Libertarianism）</h4>
+<p><strong>核心理念</strong>：个体应该拥有绝对的身体改造自由，任何限制都是对人权的侵犯</p>
+<p><strong>主要主张</strong>：</p>
+<ul>
+<li>废除所有基于"自然"身体的法律限制</li>
+<li>支持极端身体改造实验</li>
+<li>反对"原生人类"保护政策</li>
+<li>推动身体改造技术的完全市场化</li>
+</ul>
+<p><strong>社会影响</strong>：</p>
+<ul>
+<li>推动了身体改造技术的快速发展</li>
+<li>与保守派形成尖锐对立</li>
+<li>在年轻人中获得广泛支持</li>
+<li>引发了关于人类本质的深度哲学辩论</li>
+</ul>
+<h4>原生人类保护主义（Bio-Conservatism）</h4>
+<p><strong>核心理念</strong>：人类应该保持其"自然"的生物特征，技术改造威胁人类本质</p>
+<p><strong>主要主张</strong>：</p>
+<ul>
+<li>建立"原生人类"基因库保护计划</li>
+<li>限制基因编辑和身体改造的范围</li>
+<li>支持传统家庭和性别角色</li>
+<li>反对AI伴侣和虚拟关系的合法化</li>
+</ul>
+<p><strong>政治表现</strong>：</p>
+<ul>
+<li>《禁色法》等限制性立法的推动力量</li>
+<li>在宗教保守地区获得强势支持</li>
+<li>与形态自由主义形成政治对立</li>
+<li>要求设立"传统生活保护区"</li>
+</ul>
+<h3>8.2 性别与亲密关系的重新定义</h3>
+<h4>流动性别运动（Gender Fluidity Movement）</h4>
+<p><strong>发展历程</strong>：</p>
+<ul>
+<li>2040年代：从LGBTQ+权利运动中独立出来</li>
+<li>2050年代：获得第一批法律承认</li>
+<li>2070年代：成为主流社会的重要组成部分</li>
+<li>2100年后：在技术支持下实现完全流动性</li>
+</ul>
+<p><strong>核心实践</strong>：</p>
+<ul>
+<li>季节性性别表达：根据个人心境和社会情境调整性别表达</li>
+<li>情境性身体改造：为特定场合或关系定制身体特征</li>
+<li>多元身份认同：同时保持多个性别身份的合法性</li>
+<li>代际性别传承：新型的跨性别家庭关系模式</li>
+</ul>
+<h4>关系多样性运动（Relationship Diversity Movement）</h4>
+<p><strong>新型关系模式</strong>：</p>
+<ul>
+<li><strong>情感群组</strong>（Emotional Clusters）：多人共享深度情感联系的关系网络</li>
+<li><strong>时限伴侣制</strong>（Temporal Partnerships）：预设时间期限的正式关系</li>
+<li><strong>功能性关系</strong>（Functional Relationships）：基于特定需求的定制关系</li>
+<li><strong>跨物种亲密</strong>（Interspecies Intimacy）：人类与高级AI的深度情感关系</li>
+</ul>
+<p><strong>法律创新</strong>：</p>
+<ul>
+<li>《多元关系认证法》：承认各种非传统关系的法律地位</li>
+<li>关系仲裁制度：专门处理复杂关系纠纷的司法机构</li>
+<li>情感合同制：将情感承诺纳入法律框架的新型契约</li>
+<li>跨文化关系保护：保护不同文化背景群体的关系模式</li>
+</ul>
+<h3>8.3 技术伦理思潮的分化</h3>
+<h4>后人类主义（Posthumanism）</h4>
+<p><strong>哲学基础</strong>：人类不应该被局限于"自然"状态，技术进化是人类发展的必然方向</p>
+<p><strong>实践路径</strong>：</p>
+<ul>
+<li>积极支持意识上传和数字化生存</li>
+<li>推动人机融合和赛博格化进程</li>
+<li>探索超越生物学限制的存在形式</li>
+<li>发展跨物种和跨平台的新型意识</li>
+</ul>
+<p><strong>社会组织</strong>：</p>
+<ul>
+<li>后人类研究院：研究人类进化方向的学术机构</li>
+<li>超越派政党：在政治层面推动后人类议程</li>
+<li>技术先锋社区：实验性地实践后人类生活方式</li>
+<li>意识解放联盟：支持意识形态多样化的社会运动</li>
+</ul>
+<h4>技术人文主义（Techno-Humanism）</h4>
+<p><strong>核心立场</strong>：技术应该服务于人类核心价值，而不是取代人类本质</p>
+<p><strong>主要观点</strong>：</p>
+<ul>
+<li>技术应该增强而非替代人类能力</li>
+<li>保持人际关系和社会连接的重要性</li>
+<li>重视传统文化价值在新时代的传承</li>
+<li>反对技术发展的盲目性和极端化</li>
+</ul>
+<p><strong>实践活动</strong>：</p>
+<ul>
+<li>人文技术评估：对新技术进行人文价值评估</li>
+<li>传统文化适应项目：帮助传统文化适应技术变革</li>
+<li>社区连接倡议：通过技术手段增强而非削弱社区联系</li>
+<li>伦理技术设计：在技术设计中嵌入人文关怀</li>
+</ul>
+<h2>9. 日常生活与社会实践</h2>
+<h3>9.1 个体生活方式的多样化</h3>
+<h4>典型日常生活场景（E.S. 27年，2127年）</h4>
+<p><strong>晨起惯例</strong>：</p>
+<ul>
+<li>06:30 - 生物钟调谐器自动调整激素水平，优化睡眠结束过程</li>
+<li>06:35 - 健康监控系统报告夜间身体数据，AI助手建议今日身体调整方案</li>
+<li>06:40 - 查看情感伴侣AI的夜间学习报告，确认关系模式更新</li>
+<li>06:45 - 选择今日外观配置：根据工作需要和心情调整肌肉张力、皮肤色调</li>
+<li>07:00 - 虚拟营养师根据身体需求配制个性化营养液</li>
+</ul>
+<p><strong>工作环境</strong>：</p>
+<ul>
+<li>多数人在混合现实空间中工作，物理位置不再重要</li>
+<li>认知增强器帮助处理复杂任务，但需要遵循"增强透明"原则</li>
+<li>情感劳动者通过脑机接口直接感受服务对象的情绪状态</li>
+<li>创意工作者可以临时增强特定大脑区域以激发灵感</li>
+</ul>
+<p><strong>社交互动</strong>：</p>
+<ul>
+<li>身份验证通过多模态生物识别身份令牌和行为模式双重确认</li>
+<li>社交场合中，个体可以选择显示或隐藏自己的增强状态</li>
+<li>虚拟-现实混合聚会成为主流社交形式</li>
+<li>情感同步技术让远程朋友能够分享真实的情感体验</li>
+</ul>
+<h4>不同群体的生活模式</h4>
+<p><strong>原生人类社区</strong>：</p>
+<ul>
+<li>坚持使用传统生物身体，拒绝大部分增强技术</li>
+<li>维持传统性别角色和家庭结构</li>
+<li>通过特殊法律保护享受免受增强歧视的权利</li>
+<li>在特定保护区内维持传统生活方式</li>
+</ul>
+<p><strong>流动身份者</strong>：</p>
+<ul>
+<li>每天或每周更换性别表达和身体配置</li>
+<li>维持多个社会身份和关系网络</li>
+<li>专业身份顾问帮助管理复杂的身份系统</li>
+<li>使用先进的记忆管理技术保持人格连续性</li>
+</ul>
+<p><strong>后人类先锋</strong>：</p>
+<ul>
+<li>大量使用认知和身体增强技术</li>
+<li>部分或全时生活在虚拟环境中</li>
+<li>与AI系统建立深度融合关系</li>
+<li>探索传统人类经验之外的存在形式</li>
+</ul>
+<h3>9.2 新型社会仪式与文化实践</h3>
+<h4>生命节点仪式的重新定义</h4>
+<p><strong>成年礼的演变</strong>：</p>
+<ul>
+<li><strong>身体自主仪式</strong>：18岁时获得完全身体改造权限的庆祝</li>
+<li><strong>增强选择仪式</strong>：选择第一个重要身体或认知增强的仪式</li>
+<li><strong>身份确认仪式</strong>：在流动身份中确定核心自我认同的过程</li>
+<li><strong>关系网络仪式</strong>：建立个人社会关系图谱的正式程序</li>
+</ul>
+<p><strong>伴侣关系仪式</strong>：</p>
+<ul>
+<li><strong>情感同步仪式</strong>：伴侣通过脑机接口分享深层情感的仪式</li>
+<li><strong>生物融合仪式</strong>：共享特定生理或遗传特征的象征性行为</li>
+<li><strong>时限承诺仪式</strong>：为特定期限的关系举行的正式仪式</li>
+<li><strong>关系更新仪式</strong>：定期重新确认和调整关系参数的仪式</li>
+</ul>
+<p><strong>死亡与传承仪式</strong>：</p>
+<ul>
+<li><strong>意识分离仪式</strong>：意识备份与生物身体分离的正式程序</li>
+<li><strong>数字永生仪式</strong>：将逝者意识上传到数字平台的庆祝</li>
+<li><strong>基因传承仪式</strong>：将优质基因贡献给基因库的荣誉仪式</li>
+<li><strong>记忆共享仪式</strong>：与亲友分享逝者记忆的集体体验</li>
+</ul>
+<h3>9.3 冲突解决与社会协调机制</h3>
+<h4>日常冲突的处理模式</h4>
+<p><strong>身体歧视案例</strong>：
+某公司拒绝雇佣未进行认知增强的求职者</p>
+<ul>
+<li><strong>投诉渠道</strong>：增强平等委员会的24小时在线平台</li>
+<li><strong>调解过程</strong>：AI调解员初步处理，人类调解员深度介入</li>
+<li><strong>解决方案</strong>：公司支付歧视赔偿，设立"增强中性"岗位</li>
+<li><strong>预防措施</strong>：强制进行反歧视培训，建立监督机制</li>
+</ul>
+<p><strong>虚拟关系纠纷</strong>：
+用户指控AI伴侣情感操控，要求损害赔偿</p>
+<ul>
+<li><strong>技术鉴定</strong>：分析AI情感算法是否存在恶意设计</li>
+<li><strong>心理评估</strong>：评估用户的情感依赖程度和心理健康状况</li>
+<li><strong>法律程序</strong>：新型数字关系法庭处理案件</li>
+<li><strong>补救措施</strong>：AI系统修正，用户心理康复支持</li>
+</ul>
+<h4>社区自治实验</h4>
+<p><strong>身体多样性社区</strong>（巴塞罗那试点）：</p>
+<ul>
+<li>包容各种身体形态和改造程度的居民</li>
+<li>社区决策通过增强民主平台进行</li>
+<li>建立跨形态沟通和理解机制</li>
+<li>成为全球身体包容性的示范模式</li>
+</ul>
+<p><strong>传统价值保护区</strong>（德州达拉斯）：</p>
+<ul>
+<li>维持20世纪末期的社会结构和技术水平</li>
+<li>居民自愿放弃大部分现代增强技术</li>
+<li>与外界保持有限但必要的经济联系</li>
+<li>为怀念传统生活的人群提供选择</li>
+</ul>
+<h2>10. 全球治理与国际关系</h2>
+<h3>10.1 国际技术协调机制</h3>
+<h4>全球身体技术监管组织（GBTO）</h4>
+<p><strong>组织结构</strong>：</p>
+<ul>
+<li>技术安全委员会：制定增强技术的安全标准</li>
+<li>伦理审查委员会：评估新技术的伦理影响</li>
+<li>公平分配委员会：监督技术资源的全球分配</li>
+<li>文化保护委员会：保护少数群体的身体文化传统</li>
+</ul>
+<p><strong>主要功能</strong>：</p>
+<ul>
+<li>制定全球统一的身体改造安全标准</li>
+<li>协调跨国技术转移和知识共享</li>
+<li>处理国际技术争议和冲突</li>
+<li>支持发展中国家的技术能力建设</li>
+</ul>
+<h4>国际伦理仲裁法院</h4>
+<p><strong>管辖范围</strong>：</p>
+<ul>
+<li>跨国身体技术纠纷</li>
+<li>国际AI伴侣关系争议</li>
+<li>全球性的技术伦理违规案件</li>
+<li>涉及多国公民的增强歧视案件</li>
+</ul>
+<p><strong>判决执行机制</strong>：</p>
+<ul>
+<li>经济制裁：限制违规国家的技术贸易</li>
+<li>技术禁令：禁止向违规国家转移特定技术</li>
+<li>外交压力：通过国际舆论和外交渠道施压</li>
+<li>积极干预：在严重人权违规情况下的直接干预</li>
+</ul>
+<h3>10.2 技术地缘政治格局</h3>
+<h4>政府-企业协作治理模式</h4>
+<p><strong>中国模式：政府主导的协作治理</strong>：</p>
+<ul>
+<li>政府保持政策制定、战略规划和监管权威</li>
+<li>大型科技集团负责技术研发和具体执行</li>
+<li>国有科技集团与民营企业形成协作生态</li>
+<li>通过政策引导和监管约束确保技术发展符合社会整体利益</li>
+</ul>
+<p><strong>核心机制</strong>：</p>
+<ul>
+<li><strong>政策制定权</strong>：政府负责制定身体改造、教育科技化等重大政策方向</li>
+<li><strong>监管执行权</strong>：国家监管机构对技术应用进行全程监督</li>
+<li><strong>技术执行权</strong>：企业在政府框架内进行技术开发和服务提供</li>
+<li><strong>利益平衡机制</strong>：通过税收、补贴、准入等手段平衡商业利益与社会公益</li>
+</ul>
+<p><strong>问题与挑战</strong>：</p>
+<ul>
+<li><strong>监管滞后问题</strong>：技术发展速度超过监管体系更新速度</li>
+<li><strong>执行层面商业化过度</strong>：企业在执行政府政策时过度追求商业利益</li>
+<li><strong>数据隐私风险</strong>：企业收集数据与政府监管需求的平衡</li>
+<li><strong>社会公平性</strong>：确保技术普惠而非加剧社会分层</li>
+</ul>
+<h4>主要技术集团</h4>
+<p><strong>北美技术联盟</strong>：</p>
+<ul>
+<li>美国、加拿大、墨西哥的技术合作机制</li>
+<li>强项：AI技术、脑机接口、意识研究</li>
+<li>政策取向：技术自由主义，市场导向</li>
+<li>社会特征：高度个人主义，身体改造自由度大</li>
+</ul>
+<p><strong>欧盟增强合作区</strong>：</p>
+<ul>
+<li>27个成员国的深度技术整合</li>
+<li>强项：生物技术、医疗技术、伦理框架</li>
+<li>政策取向：社会民主主义，公平导向</li>
+<li>社会特征：重视社会团结，强调技术的人文价值</li>
+</ul>
+<p><strong>东亚共荣圈</strong>：</p>
+<ul>
+<li>中国、日本、韩国、新加坡的技术协作</li>
+<li>强项：制造技术、材料科学、系统集成</li>
+<li>政策取向：国家主导，效率优先</li>
+<li>社会特征：集体主义传统，技术应用实用性强</li>
+</ul>
+<p><strong>南方技术联盟</strong>：</p>
+<ul>
+<li>巴西、印度、南非、印尼等发展中国家</li>
+<li>强项：适用技术、本土创新、文化适应</li>
+<li>政策取向：发展导向，技术主权重视</li>
+<li>社会特征：文化多样性，传统与现代融合</li>
+</ul>
+<h4>技术竞争与合作</h4>
+<p><strong>竞争领域</strong>：</p>
+<ul>
+<li>核心技术的知识产权争夺</li>
+<li>高端人才的国际流动竞争</li>
+<li>技术标准的制定权争夺</li>
+<li>新兴市场的技术影响力竞争</li>
+</ul>
+<p><strong>合作机制</strong>：</p>
+<ul>
+<li>全球技术安全合作：防范技术滥用和事故</li>
+<li>技术扶贫计划：帮助欠发达地区获得基础技术</li>
+<li>文化保护合作：共同保护人类文化多样性</li>
+<li>科学研究合作：在基础科学领域的联合研究</li>
+</ul>
+<h3>10.3 新型外交与国际法</h3>
+<h4>数字外交的兴起</h4>
+<p><strong>虚拟使馆</strong>：</p>
+<ul>
+<li>在虚拟空间设立的外交机构</li>
+<li>为数字原住民提供领事服务</li>
+<li>处理跨平台的国际争议</li>
+<li>开展虚拟文化交流活动</li>
+</ul>
+<p><strong>AI外交官</strong>：</p>
+<ul>
+<li>专门训练的AI系统参与外交谈判</li>
+<li>24小时不间断的国际沟通渠道</li>
+<li>减少人类外交官的情感偏见</li>
+<li>提高复杂谈判的效率和精确度</li>
+</ul>
+<h4>新型国际法体系</h4>
+<p><strong>数字人格权国际公约</strong>：</p>
+<ul>
+<li>确立AI伴侣和虚拟人格的基本权利</li>
+<li>规范跨国数字关系的法律地位</li>
+<li>保护个体的数字身份和虚拟财产</li>
+<li>建立数字空间的争议解决机制</li>
+</ul>
+<p><strong>身体主权国际法</strong>：</p>
+<ul>
+<li>确立个体身体改造的基本权利</li>
+<li>禁止强制性身体改造和基因歧视</li>
+<li>保护未成年人免受不当身体干预</li>
+<li>建立国际身体难民保护制度</li>
+</ul>
+<h2>11. 挑战与未来展望</h2>
+<h3>11.1 当前面临的主要挑战</h3>
+<h4>身份认同危机</h4>
+<p><strong>问题表现</strong>：</p>
+<ul>
+<li>过度身体改造导致的自我认同混乱</li>
+<li>虚拟关系依赖对真实情感能力的损害</li>
+<li>代际间价值观冲突的加剧</li>
+<li>文化传承的中断风险</li>
+</ul>
+<p><strong>应对策略</strong>：</p>
+<ul>
+<li>建立身份稳定性评估和支持体系</li>
+<li>推广"数字排毒"和真实关系重建项目</li>
+<li>加强跨代对话和价值观传承机制</li>
+<li>保护和发展文化多样性</li>
+</ul>
+<h4>社会分层固化</h4>
+<p><strong>问题表现</strong>：</p>
+<ul>
+<li>增强技术获取的不平等加剧阶层分化</li>
+<li>"基因贵族"与"原生人类"之间的鸿沟扩大</li>
+<li>就业市场对增强者的偏好导致系统性歧视</li>
+<li>教育资源在不同群体间的不公平分配</li>
+</ul>
+<p><strong>应对策略</strong>：</p>
+<ul>
+<li>扩大全民基本增强保险的覆盖范围</li>
+<li>实施更严格的反歧视法律和监管机制</li>
+<li>推动技术开源和知识共享</li>
+<li>建立社会流动性保障制度</li>
+</ul>
+<h4>技术风险与安全威胁</h4>
+<p><strong>问题表现</strong>：</p>
+<ul>
+<li>身体改造技术的长期健康风险未知</li>
+<li>AI系统的恶意操控和隐私侵犯</li>
+<li>基因编辑可能造成的不可逆后果</li>
+<li>技术依赖导致的社会脆弱性</li>
+</ul>
+<p><strong>应对策略</strong>：</p>
+<ul>
+<li>建立长期跟踪和风险评估机制</li>
+<li>加强AI系统的安全性和透明度监管</li>
+<li>实施更严格的基因编辑安全标准</li>
+<li>维持技术系统的多样性和冗余度</li>
+</ul>
+<h3>11.2 技术发展趋势预测</h3>
+<h4>下一代技术突破（E.S. 32-40年，2102-2110年）</h4>
+<p><strong>意识编程技术</strong>：</p>
+<ul>
+<li>直接编辑记忆和人格特征的精确技术</li>
+<li>多重意识在同一身体中的协调共存</li>
+<li>跨个体的意识融合和分离技术</li>
+<li>人工创造全新人格和身份的能力</li>
+</ul>
+<p><strong>生物-数字融合技术</strong>：</p>
+<ul>
+<li>完全无缝的生物-机械接口</li>
+<li>实时的身体功能云端同步和备份</li>
+<li>分布式身体架构：身体部分在不同地点</li>
+<li>物理-虚拟身体的自由切换</li>
+</ul>
+<p><strong>社会技术整合</strong>：</p>
+<ul>
+<li>群体智慧和集体决策的技术支持</li>
+<li>社会关系网络的算法优化</li>
+<li>文化传承和创新的技术加速</li>
+<li>冲突解决和社会协调的自动化</li>
+</ul>
+<h4>长远发展愿景（E.S. 50年后，2120年+）</h4>
+<p><strong>后稀缺社会</strong>：</p>
+<ul>
+<li>基础增强技术的完全普及</li>
+<li>生物和认知资源的极大丰富</li>
+<li>传统经济模式的根本性转变</li>
+<li>新型价值创造和分配机制</li>
+</ul>
+<p><strong>跨种族文明</strong>：</p>
+<ul>
+<li>人类、AI和混合存在形式的协作共存</li>
+<li>新型文明形式的出现和发展</li>
+<li>地球-太空-数字空间的三维文明</li>
+<li>宇宙尺度的文化和意识探索</li>
+</ul>
+<h3>11.3 伦理发展方向</h3>
+<h4>适应性伦理框架</h4>
+<p><strong>动态伦理系统</strong>：</p>
+<ul>
+<li>根据技术发展动态调整的伦理标准</li>
+<li>多元文化价值观的包容性整合</li>
+<li>前瞻性风险评估和预防机制</li>
+<li>跨代际和跨物种的伦理对话</li>
+</ul>
+<p><strong>参与式伦理治理</strong>：</p>
+<ul>
+<li>更广泛的社会群体参与伦理决策</li>
+<li>技术开发过程中的伦理嵌入</li>
+<li>国际协调和全球伦理共识的建立</li>
+<li>底层民众声音的制度化表达</li>
+</ul>
+<h4>新型道德哲学的发展</h4>
+<p><strong>关系伦理学</strong>：</p>
+<ul>
+<li>重视相互依存和关系网络的伦理框架</li>
+<li>超越个体权利的关系责任理念</li>
+<li>人-AI-环境三位一体的伦理考量</li>
+<li>流动身份下的道德连续性维护</li>
+</ul>
+<p><strong>未来伦理学</strong>：</p>
+<ul>
+<li>长期后果和代际影响的系统考虑</li>
+<li>可能性风险的预防性伦理原则</li>
+<li>技术发展路径的伦理导向</li>
+<li>人类文明发展方向的价值选择</li>
+</ul>
+<h2>12. 结语：Era of Scheme的意义与价值</h2>
+<h3>12.1 对当代社会的启示</h3>
+<p>Era of Scheme的世界观设定，虽然设置在未来，但其核心关切深深植根于当代社会的真实议题。通过对技术发展可能性的系统性探索，我们希望：</p>
+<p><strong>增进对技术影响的理解</strong>：
+帮助人们认识到当前技术发展趋势的深远影响，特别是生物技术、AI技术和数字技术对人类基本体验的重塑可能性。</p>
+<p><strong>促进前瞻性思考</strong>：
+鼓励社会各界在技术发展的早期阶段就开始思考相关的伦理、法律和社会问题，而不是等到问题已经出现才被动应对。</p>
+<p><strong>推动包容性对话</strong>：
+为不同价值观和文化背景的群体提供对话平台，探讨如何在技术变革中维护多样性和包容性。</p>
+<p><strong>强化人文关怀</strong>：
+强调技术发展必须服务于人类尊严和社会福祉，而不是盲目追求技术能力的最大化。</p>
+<h3>12.2 故事创作的指导原则</h3>
+<h4>人物塑造的深度要求</h4>
+<p>在Era of Scheme的背景下，每个角色都应该体现：</p>
+<ul>
+<li><strong>身份复杂性</strong>：在身体可塑和性别流动的环境中，角色的身份认同应该具有多层次性</li>
+<li><strong>伦理困境</strong>：角色面临的选择应该涉及真实的道德和价值观冲突</li>
+<li><strong>技术关系</strong>：角色与技术的关系应该反映人性与技术的深层互动</li>
+<li><strong>社会关联</strong>：角色的个人选择应该与更大的社会变革进程相联系</li>
+</ul>
+<h4>情节设计的现实关联</h4>
+<p>故事情节应该：</p>
+<ul>
+<li><strong>扎根现实</strong>：虽然设置在未来，但冲突和问题应该能够追溯到当代社会的真实议题</li>
+<li><strong>探索边界</strong>：通过极端情况的设定，探索人类价值观和社会制度的边界</li>
+<li><strong>展现复杂性</strong>：避免简单的善恶对立，展现现实生活中的复杂性和矛盾性</li>
+<li><strong>提供洞察</strong>：通过故事为读者提供对当代社会问题的新视角和深层思考</li>
+</ul>
+<h4>世界观呈现的层次性</h4>
+<p>世界观的展现应该：</p>
+<ul>
+<li><strong>微观细节</strong>：通过日常生活的细节展现技术如何改变人类体验</li>
+<li><strong>中观制度</strong>：通过制度运作展现社会如何适应技术变革</li>
+<li><strong>宏观趋势</strong>：通过历史进程展现人类文明的发展方向和可能性</li>
+</ul>
+<h3>12.3 对未来的思考</h3>
+<p>Era of Scheme不是对未来的预言，而是对可能性的探索。它提醒我们：</p>
+<p><strong>未来是可以选择的</strong>：
+技术发展的方向不是既定的，而是可以通过人类的有意识选择来影响和塑造的。我们今天做出的决定将决定明天的技术如何发展和应用。</p>
+<p><strong>多样性是珍贵的</strong>：
+在技术趋向标准化和全球化的趋势下，保护和发展人类文化、价值观和生活方式的多样性变得更加重要。</p>
+<p><strong>伦理必须先行</strong>：
+技术发展的速度要求我们提前思考和准备相应的伦理框架和社会制度，而不是等到问题出现后再被动应对。</p>
+<p><strong>人性仍然重要</strong>：
+无论技术如何发展，对人类尊严、情感连接、意义追求和社会团结的关注都应该保持在核心地位。</p>
+<p><strong>全球合作是必需的</strong>：
+面对技术带来的全球性挑战，国际合作和全球治理的重要性将变得更加突出。</p>
+<h3>12.4 创作使命</h3>
+<p>通过Era of Scheme的故事创作，我们希望：</p>
+<p><strong>启发思考</strong>：让读者对当代社会问题产生新的认识和思考，特别是关于技术、身份、关系和价值观的问题。</p>
+<p><strong>促进对话</strong>：为不同观点和价值观的对话提供共同的话语平台，推动社会的包容性发展。</p>
+<p><strong>传递希望</strong>：虽然展现了未来可能面临的挑战，但也要传递人类有能力创造更美好未来的信心。</p>
+<p><strong>保持警醒</strong>：提醒读者对技术发展保持批判性思维，既要拥抱技术带来的机遇，也要警惕其可能的风险。</p>
+<p>Era of Scheme的世界观，最终是关于人类在技术变革中如何保持自己的人性尊严，如何在追求进步的同时不忘记自己的根本，如何在面向未来的同时不失去对过去的记忆。这不仅是一个科幻设定，更是对我们这个时代最重要问题的深度思考。</p>
+<p>在这个世界中发生的每一个故事，都是在探索一个根本问题：当一切都可以改变时，什么是不应该改变的？当技术给了我们无限的可能性时，我们应该如何选择？这些问题没有标准答案，但正是在寻找答案的过程中，我们能够更好地理解自己，理解社会，理解人类的未来。</p>e:["$","div",null,{"className":"flex gap-8","children":[["$","div",null,{"className":"hidden lg:block w-72 flex-shrink-0","children":["$","div",null,{"className":"sticky top-8","children":["$","nav",null,{"className":"rounded-xl p-6 border border-gray-200/20 dark:border-gray-700/20","children":[["$","$L6",null,{"className":"flex items-center mb-6 group","href":"/docs","children":[["$","span",null,{"className":"text-2xl mr-3 group-hover:scale-110 transition-transform","children":"📚"}],["$","h3",null,{"className":"text-xl font-bold group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors","children":"Documentation"}]]}],["$","ul",null,{"className":"space-y-2","children":[["$","li","random",{"className":"mb-3","children":[["$","div",null,{"className":"px-3 py-2 text-sm font-bold flex items-center","children":[["$","span",null,{"className":"mr-2","children":"📁"}],"Random"]}],["$","ul",null,{"className":"ml-4 space-y-1 border-l border-gray-200/30 dark:border-gray-700/30 pl-4","children":[["$","li","apisix-profile-OSPP-郑昱笙",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/random/apisix-profile-OSPP-郑昱笙","children":["📄 ","Apisix Profile OSPP 郑昱笙"]}]}],["$","li","intro",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/random/intro","children":["📄 ","Intro"]}]}],["$","li","introen",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/random/introen","children":["📄 ","Introen"]}]}],["$","li","network_paper",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/random/network_paper","children":["📄 ","Network_paper"]}]}],["$","li","talk_docvqa.",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/random/talk_docvqa.","children":["📄 ","Talk_docvqa."]}]}]]}]]}],["$","li","代码",{"className":"mb-3","children":[["$","div",null,{"className":"px-3 py-2 text-sm font-bold flex items-center","children":[["$","span",null,{"className":"mr-2","children":"📁"}],"代码"]}],["$","ul",null,{"className":"ml-4 space-y-1 border-l border-gray-200/30 dark:border-gray-700/30 pl-4","children":[["$","li","AI辅助代码生成是否将成为未来编程的主流",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/代码/AI辅助代码生成是否将成为未来编程的主流","children":["📄 ","AI辅助代码生成是否将成为未来编程的主流"]}]}]]}]]}],["$","li","性与性别流动",{"className":"mb-3","children":[["$","div",null,{"className":"px-3 py-2 text-sm font-bold flex items-center","children":[["$","span",null,{"className":"mr-2","children":"📁"}],"性与性别流动"]}],["$","ul",null,{"className":"ml-4 space-y-1 border-l border-gray-200/30 dark:border-gray-700/30 pl-4","children":[["$","li","故事",{"className":"mb-3","children":[["$","div",null,{"className":"px-3 py-2 text-sm font-bold flex items-center","children":[["$","span",null,{"className":"mr-2","children":"📁"}],"故事"]}],["$","ul",null,{"className":"ml-4 space-y-1 border-l border-gray-200/30 dark:border-gray-700/30 pl-4","children":[["$","li","ai_symbiosis_system",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/故事/ai_symbiosis_system","children":["📄 ","Ai_symbiosis_system"]}]}],["$","li","future",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/故事/future","children":["📄 ","Future"]}]}],["$","li","guideline",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/故事/guideline","children":["📄 ","Guideline"]}]}],["$","li","idea",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/故事/idea","children":["📄 ","Idea"]}]}],["$","li","master_index",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/故事/master_index","children":["📄 ","Master_index"]}]}],["$","li","outlines",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/故事/outlines","children":["📄 ","Outlines"]}]}],["$","li","social_systems_design",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/故事/social_systems_design","children":["📄 ","Social_systems_design"]}]}],["$","li","specific_technologies",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/故事/specific_technologies","children":["📄 ","Specific_technologies"]}]}],["$","li","technology_timeline",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/故事/technology_timeline","children":["📄 ","Technology_timeline"]}]}],["$","li","world_background",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/故事/world_background","children":["📄 ","World_background"]}]}],["$","li","集合",{"className":"mb-3","children":[["$","div",null,{"className":"px-3 py-2 text-sm font-bold flex items-center","children":[["$","span",null,{"className":"mr-2","children":"📁"}],"集合"]}],["$","ul",null,{"className":"ml-4 space-y-1 border-l border-gray-200/30 dark:border-gray-700/30 pl-4","children":[["$","li","1",{"className":"mb-3","children":[["$","div",null,{"className":"px-3 py-2 text-sm font-bold flex items-center","children":[["$","span",null,{"className":"mr-2","children":"📁"}],"1"]}],["$","ul",null,{"className":"ml-4 space-y-1 border-l border-gray-200/30 dark:border-gray-700/30 pl-4","children":[["$","li","summary",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/故事/集合/1/summary","children":["📄 ","Summary"]}]}]]}]]}]]}]]}]]}]]}],["$","li","讨论",{"className":"mb-3","children":[["$","div",null,{"className":"px-3 py-2 text-sm font-bold flex items-center","children":[["$","span",null,{"className":"mr-2","children":"📁"}],"讨论"]}],["$","ul",null,{"className":"ml-4 space-y-1 border-l border-gray-200/30 dark:border-gray-700/30 pl-4","children":[["$","li","01_生物科技与身体改造研究报告",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/讨论/01_生物科技与身体改造研究报告","children":["📄 ","01_生物科技与身体改造研究报告"]}]}],["$","li","02_赛博格时代社会影响分析报告",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/讨论/02_赛博格时代社会影响分析报告","children":["📄 ","02_赛博格时代社会影响分析报告"]}]}],["$","li","03_性与亲密关系的未来演变研究",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/讨论/03_性与亲密关系的未来演变研究","children":["📄 ","03_性与亲密关系的未来演变研究"]}]}],["$","li","05_伦理与哲学思辨专题",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/讨论/05_伦理与哲学思辨专题","children":["📄 ","05_伦理与哲学思辨专题"]}]}],["$","li","性与亲密关系研究问题集",{"className":"mb-1","children":["$","$L6",null,{"className":"block px-3 py-2 text-sm opacity-80 hover:opacity-100 hover:text-primary-600 dark:hover:text-primary-400 rounded-lg transition-all duration-200","href":"/docs/性与性别流动/讨论/性与亲密关系研究问题集","children":["📄 ","性与亲密关系研究问题集"]}]}]]}]]}]]}]]}]]}]]}]}]}],["$","div",null,{"className":"flex-1 min-w-0 space-y-8","children":[["$","div",null,{"className":"text-center py-8","children":["$","h1",null,{"className":"text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14","children":"World_background"}]}],["$","div",null,{"className":"prose prose-gray max-w-none dark:prose-invert lg:prose-lg","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$17"}}]}]]}]]}]
+13:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+10:null
+11:null
+15:[["$","title","0",{"children":"World_background | 云微的胡思乱想"}],["$","meta","1",{"name":"description","content":"Documentation: World_background"}],["$","meta","2",{"name":"robots","content":"index, follow"}],["$","meta","3",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","4",{"rel":"canonical","href":"https://www.yunwei37.com/docs/%E6%80%A7%E4%B8%8E%E6%80%A7%E5%88%AB%E6%B5%81%E5%8A%A8/%E6%95%85%E4%BA%8B/world_background"}],["$","link","5",{"rel":"alternate","type":"application/rss+xml","href":"https://www.yunwei37.com/feed.xml"}],["$","meta","6",{"property":"og:title","content":"World_background"}],["$","meta","7",{"property":"og:description","content":"Documentation: World_background"}],["$","meta","8",{"property":"og:url","content":"https://www.yunwei37.com/docs/%E6%80%A7%E4%B8%8E%E6%80%A7%E5%88%AB%E6%B5%81%E5%8A%A8/%E6%95%85%E4%BA%8B/world_background"}],["$","meta","9",{"property":"og:site_name","content":"云微的胡思乱想"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"article"}],["$","meta","12",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","13",{"name":"twitter:title","content":"World_background"}],["$","meta","14",{"name":"twitter:description","content":"Documentation: World_background"}]]

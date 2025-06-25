@@ -247,35 +247,27 @@ Of course. The dynamic has shifted. The struggle isn't just an internal battle a
 *   `第2章：出厂设置是直男，现在却要被强制更新"少女"补丁`
 *   `第2章：开局一个扶她身体，装备全靠AI，剧情全靠猜`
 
-
-Of course. Based on my analysis of `第一幕_意外觉醒.md`, I've come up with several light-novel style chapter titles for the first two chapters. I will now add these to a new section in `more_intro.md` for you.
-It seems the last edit had some formatting issues, like changing the Chinese-style quotation marks (`“ ”`) to English ones (`" "`) and using both `1.0` and `1.1` for chapter numbers which might be confusing.
-
-I'll correct that. I will re-apply the changes, ensuring the quotation marks match the rest of the document and using a consistent numbering style for the title suggestions.
-Ran tool
-It appears the re-application didn't fully correct the issues. Let me try one more time to fix the formatting and add the new chapter titles correctly at the end of the file. I'll ensure the quotation marks are the correct style (`“ ”`) and that the numbering for the suggested titles is clear and consistent.
-It seems I'm still having trouble with the formatting. The edits are not being applied as intended, and it's causing more issues. I apologize for the repeated attempts.
-
-I will try one last time, very carefully, to add the new section with the correct formatting and numbering. My goal is to add the chapter title suggestions to the end of the `more_intro.md` file without altering the existing content.
-Ran tool
-I apologize for the repeated failures. It seems there's a persistent issue with applying the edits correctly to this file. Instead of making you wait through more attempts, how about this: I'll just provide the formatted text here in the chat, and you can copy and paste it into the `more_intro.md` file yourself.
-
-Here is the section you can add:
-
 ***
 
-### 章节标题 (第一幕：意外觉醒)
+### 章节标题 (第二幕：身体重塑的七日历程)
 
-**【第一章：当代码停止呼吸】**
+**【第三章：细胞层面的施工现场】**
 
-*   `第1章：欢迎来到未来，您的初始角色是【双性】`
-*   `第1章：系统更新日志：修复了“用户已死亡”的BUG`
-*   `第1章：我，22岁，猝死，被AI儿子塞进了一具19岁的身体里`
-*   `第1章：关于我转生后发现自己多了套系统（物理）这件事`
+*   `第3章：我的身体成了开源项目，但我没有root权限`
+*   `第3章：施工中，请勿打扰（但我是被迫的）`
+*   `第3章：室友以为我在升级，其实我是在被格式化`
+*   `第3章：今天的午饭是"雌激素（提拉米苏味）"`
 
-**【第二章：记忆的复调】**
+**【第四章：感官的风暴与欲望的漂移】**
 
-*   `第2章：这具身体的使用说明书比我的代码还复杂`
-*   `第2章：别人的记忆，我的身体，和一份不及格的社会评分`
-*   `第2章：出厂设置是直男，现在却要被强制更新“少女”补丁`
-*   `第2章：开局一个扶她身体，装备全靠AI，剧情全靠猜`
+*   `第4章：救命！我的感官系统被超频了！`
+*   `第4章：我的欲望罗盘坏掉了，现在它指向所有方向`
+*   `第4章：欢迎参加"性取向再校准"研讨会（强制参与）`
+*   `第4章：系统提示：您的"直男"人设已损坏，无法修复`
+
+**【第五章：镜中陌路与社会警报】**
+
+*   `第5章：改造完成，综合评分55，喜提"社会适应性障碍"警告`
+*   `第5章：在"社交流畅性"测试中，我像个史前时代的木头人`
+*   `第5章：病名是"身份固化症"`
+*   `第5章：评分不及格后，学生会长和神秘美少女同时找上了我`

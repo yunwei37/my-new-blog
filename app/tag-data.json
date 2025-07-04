@@ -1,4 +1,11 @@
 {
+  "others": 4,
+  "notes": 27,
+  "gpt": 9,
+  "ai": 10,
+  "webassembly": 3,
+  "gis": 1,
+  "ebpf": 3,
   "未来技术": 1,
   "性学研究": 1,
   "数字亲密": 1,
@@ -8,12 +15,5 @@
   "伦理学": 1,
   "人际关系": 1,
   "draft": 13,
-  "notes": 27,
-  "gpt": 9,
-  "ai": 10,
-  "ebpf": 3,
-  "tutorial": 7,
-  "others": 4,
-  "webassembly": 3,
-  "gis": 1
+  "tutorial": 7
 }

@@ -4,6 +4,7 @@ In short:
 
 - From "what can be observed" perspective, what bpftime can do can all be covered by using Neutrino (fine-grain binary instrumentation tools) combined with kernel eBPF. You can use Neutrino to trace GPU events and record the events with timestamp, and then use kernel eBPF to trace the CPU events and record the events with timestamp, then merge them together. This is because the GPU instrumentation part in bpftime is the same as how Neutrino works.
 - The programming model of bpftime `can reduce the storage / computation cost` of this cross layer correlation, you can do it in place with in the same probe/tools in bpftime, but not in other tools. Cross layer tracing is necessary for GPU tools.
+- Compare to neutrino and other tools: we are more safe, more expressiveness, and (can be) more efficiency, support better policy or trcaing across multiple layers.
 
 What can be interesting:
 
